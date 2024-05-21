@@ -2,6 +2,7 @@ package TicTacToe.controller;
 
 import TicTacToe.model.Board;
 import TicTacToe.model.Move;
+import TicTacToe.model.PieceType;
 import TicTacToe.model.Player;
 import TicTacToe.service.GameService;
 import TicTacToe.service.implementation.GameServiceImpl;
@@ -14,15 +15,28 @@ public class GameController {
     private final GameService gameService;
     private final BoardPrinter boardPrinter;
     private final int boardSize;
+    private Player player1;
+    private Player player2;
 
     public GameController(int boardSize) {
         this.boardSize = boardSize;
         Board board = new Board(boardSize);
         gameService = new GameServiceImpl(board, new StandardRuleImpl());
         boardPrinter = new BoardPrinter();
+        initializePlayers();
     }
 
-    public void playGame(Player player1, Player player2) {
+    private void initializePlayers() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter name for Player 1: ");
+        String player1Name = scanner.nextLine();
+        System.out.print("Enter name for Player 2: ");
+        String player2Name = scanner.nextLine();
+        player1 = new Player(player1Name, PieceType.X);
+        player2 = new Player(player2Name, PieceType.O);
+    }
+
+    public void playGame() {
         Scanner scanner = new Scanner(System.in);
         Player currentPlayer = player1;
         boolean gameWon = false;
