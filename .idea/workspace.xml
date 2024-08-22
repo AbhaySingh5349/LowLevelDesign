@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="ObjectPoolDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/NormalVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/SportsVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/DriveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/NormalDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/SportsDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="StrategyDesignPattern">
+      <change afterPath="$PROJECT_DIR$/src/NullObjectDesignPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectDesignPattern/NullVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectDesignPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectDesignPattern/VehicleFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724296365408</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="StrategyDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724306492419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724306492419</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +132,7 @@
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="AbstractFactoryDesignPattern" />
     <MESSAGE value="ObjectPoolDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="ObjectPoolDesignPattern" />
+    <MESSAGE value="StrategyDesignPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="StrategyDesignPattern" />
   </component>
 </project>
