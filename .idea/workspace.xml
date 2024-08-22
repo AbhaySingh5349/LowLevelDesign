@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="NullObjectDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/RemoteControlInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/TurnOffAcCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandDesignPattern/TurnOnAcCommand.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="CommandDesignPattern">
+      <change afterPath="$PROJECT_DIR$/src/IteratorDesignPattern/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorDesignPattern/BookIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorDesignPattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorDesignPattern/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorDesignPattern/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724308659654</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CommandDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724320376393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724320376393</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +150,7 @@
     <MESSAGE value="ObjectPoolDesignPattern" />
     <MESSAGE value="StrategyDesignPattern" />
     <MESSAGE value="NullObjectDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="NullObjectDesignPattern" />
+    <MESSAGE value="CommandDesignPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommandDesignPattern" />
   </component>
 </project>
