@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="TemplateDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityDesignPattern/DebugLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityDesignPattern/ErrorLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityDesignPattern/InfoLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityDesignPattern/LogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityDesignPattern/Main.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="ChainOfResponsibilityDesignPattern">
+      <change afterPath="$PROJECT_DIR$/src/MediatorDesignPattern/Bidder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediatorDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediatorDesignPattern/Mediator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724325228201</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ChainOfResponsibilityDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724329748053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724329748053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +175,7 @@
     <MESSAGE value="CommandDesignPattern" />
     <MESSAGE value="IteratorDesignPattern" />
     <MESSAGE value="TemplateDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="TemplateDesignPattern" />
+    <MESSAGE value="ChainOfResponsibilityDesignPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChainOfResponsibilityDesignPattern" />
   </component>
 </project>
