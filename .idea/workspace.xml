@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="ObserverDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/observable/InventoryObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/ArithmeticExpression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/ArithmeticExpression/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/ArithmeticExpression/MultiplyExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/ArithmeticExpression/NumericExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/ArithmeticExpression/SumExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Problem/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Problem/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Solution/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Solution/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Solution/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeDesignPattern/FileSystem/Solution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724345164804</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ObserverDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724346039672</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724346039673</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
