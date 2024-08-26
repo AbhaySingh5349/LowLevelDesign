@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="CompositeDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/DiscountCouponDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/GiftWrapDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/ProductDecorator.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="DecoratorDesignPattern">
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/ItemShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VMStates/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VMStates/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VMStates/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VMStates/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VMStates/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/enums/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateDesignPattern/enums/ItemType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -204,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724416145802</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DecoratorDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724418912039</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724418912039</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +238,7 @@
     <MESSAGE value="InterpreterDesignPattern" />
     <MESSAGE value="ObserverDesignPattern" />
     <MESSAGE value="CompositeDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="CompositeDesignPattern" />
+    <MESSAGE value="DecoratorDesignPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="DecoratorDesignPattern" />
   </component>
 </project>
