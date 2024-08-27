@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="StateDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/State/NumericState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MementoDesignPattern/State/TextState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="MementoDesignPattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724685906655</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MementoDesignPattern">
+      <option name="closed" value="true" />
+      <created>1724763010335</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724763010335</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +242,7 @@
     <MESSAGE value="CompositeDesignPattern" />
     <MESSAGE value="DecoratorDesignPattern" />
     <MESSAGE value="StateDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="StateDesignPattern" />
+    <MESSAGE value="MementoDesignPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="MementoDesignPattern" />
   </component>
 </project>
