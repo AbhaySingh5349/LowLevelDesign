@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="ElevatorSystem">
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/User.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="LibraryManagementSystem">
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/LibrarySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/service/BookObservableRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/EmailDirectNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/IDirectNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/SmsDirectNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookIssuedMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookNewEditionMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookOverdueMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookReturnedMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/INotificationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/obervable/BookObservableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/obervable/IBookObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/observer/IBookObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/book/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/book/Magazine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
@@ -51,6 +67,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ElevatorSystem.executor": "Run",
+    "Application.LibrarySystem.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -251,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724933431361</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="LibraryManagementSystem">
+      <option name="closed" value="true" />
+      <created>1725037243047</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1725037243047</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,6 +301,7 @@
     <MESSAGE value="AdapterDesignPattern" />
     <MESSAGE value="ParkingLot" />
     <MESSAGE value="ElevatorSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="ElevatorSystem" />
+    <MESSAGE value="LibraryManagementSystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagementSystem" />
   </component>
 </project>

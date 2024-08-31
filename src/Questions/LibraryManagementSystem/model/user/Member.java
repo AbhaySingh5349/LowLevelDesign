@@ -2,12 +2,13 @@ package Questions.LibraryManagementSystem.model.user;
 
 import Questions.LibraryManagementSystem.model.book.BookItem;
 import Questions.LibraryManagementSystem.strategy.membership.IMembership;
+import Questions.LibraryManagementSystem.strategy.observer.IBookObserver;
 import Questions.LibraryManagementSystem.strategy.payment.IPaymentMethod;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Member extends User{
+public class Member extends User implements IBookObserver {
     List<BookItem> issuedBooks;
     private final IMembership membership;
     private IPaymentMethod paymentMethod;
@@ -56,5 +57,10 @@ public class Member extends User{
 
     public IPaymentMethod getPaymentMethod() {
         return paymentMethod;
+    }
+
+    @Override
+    public void update(String message) {
+        System.out.println("Book observable message for: " + message + " for " + this.getName());
     }
 }

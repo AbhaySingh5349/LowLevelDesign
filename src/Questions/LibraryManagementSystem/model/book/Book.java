@@ -2,7 +2,7 @@ package Questions.LibraryManagementSystem.model.book;
 
 import java.util.Date;
 
-public abstract class Book {
+public class Book {
     private final String isbn;
     private final String title;
     private final String authorName;
@@ -37,5 +37,7 @@ public abstract class Book {
         return basePrice;
     }
 
-    abstract double getPrice();
+    public double getPrice(){
+        return basePrice;
+    }
 }

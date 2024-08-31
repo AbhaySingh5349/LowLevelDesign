@@ -1,6 +1,6 @@
 package Questions.LibraryManagementSystem.strategy.book;
 
-public class Ebook implements IBook{
+public class Magazine implements IBook{
     private static final double DAILY_FINE = 5;
     private static final double BOOK_CHARGES = 20;
 
