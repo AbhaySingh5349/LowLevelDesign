@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="LibraryManagementSystem">
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/LibrarySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/enums/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/service/BookObservableRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/EmailDirectNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/IDirectNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/directNotification/SmsDirectNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookIssuedMessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookNewEditionMessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookOverdueMessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/BookReturnedMessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/notificationMessage/INotificationMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/obervable/BookObservableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/obervable/IBookObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/observer/IBookObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/enums/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/LockerLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/repository/InMemoryLockerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/repository/LockerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/service/LockerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerClosedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerOpenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/model/user/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/book/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/LibraryManagementSystem/strategy/book/Magazine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,17 +61,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ElevatorSystem.executor": "Run",
-    "Application.LibrarySystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -276,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725037243047</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="LibraryManagementSystem">
+      <option name="closed" value="true" />
+      <created>1725100765933</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725100765933</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
