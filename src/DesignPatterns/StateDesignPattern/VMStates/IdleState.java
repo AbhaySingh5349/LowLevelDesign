@@ -44,7 +44,7 @@ public class IdleState implements State{
 
     @Override
     public Item dispenseProduct(VendingMachine machine, int codeNumber) throws Exception {
-        throw new Exception("proeduct can not be dispensed idle state");
+        throw new Exception("product can not be dispensed idle state");
     }
 
     @Override

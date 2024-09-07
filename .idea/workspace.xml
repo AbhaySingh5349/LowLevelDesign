@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="LibraryManagementSystem">
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/enums/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Locker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/LockerLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/model/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/repository/InMemoryLockerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/repository/LockerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/service/LockerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerClosedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerOpenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AmazonLockerService/strategy/LockerState.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="AmazonLockerService">
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/exceptions/CalendarException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/CustomCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/CustomDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/CalendarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryCalendarRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryMeetingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryUserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/MeetingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/service/MeetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/SelectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/SelectionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VMStates/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/VendingMachine/model/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/VendingMachine/model/Rack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725100765933</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="AmazonLockerService">
+      <option name="closed" value="true" />
+      <created>1725628633640</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1725628633640</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,6 +320,7 @@
     <MESSAGE value="ParkingLot" />
     <MESSAGE value="ElevatorSystem" />
     <MESSAGE value="LibraryManagementSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagementSystem" />
+    <MESSAGE value="AmazonLockerService" />
+    <option name="LAST_COMMIT_MESSAGE" value="AmazonLockerService" />
   </component>
 </project>

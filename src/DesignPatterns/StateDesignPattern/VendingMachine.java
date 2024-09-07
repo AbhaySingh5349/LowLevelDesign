@@ -41,5 +41,4 @@ public class VendingMachine {
     public void setBillList(List<Bill> billList) {
         this.billList = billList;
     }
-
 }

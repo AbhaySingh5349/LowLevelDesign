@@ -22,5 +22,4 @@ public interface State {
     public List<Bill> refundFullMoney(VendingMachine machine) throws Exception;
 
     public void updateInventory(VendingMachine machine, Item item, int codeNumber) throws Exception;
-
 }

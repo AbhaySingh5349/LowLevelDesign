@@ -44,13 +44,11 @@ public class SelectionState implements State{
             throw new Exception("insufficient amount");
         }
         else if(paidByUser >= item.getPrice()) {
-
             if(paidByUser > item.getPrice()) {
                 getChange(paidByUser-item.getPrice());
             }
             machine.setVendingMachineState(new DispenseState(machine, codeNumber));
         }
-
     }
 
     @Override
@@ -70,11 +68,10 @@ public class SelectionState implements State{
         System.out.println("Returned the full amount back in the Coin Dispense Tray");
         machine.setVendingMachineState(new IdleState(machine));
         return machine.getBillList();
-
     }
 
     @Override
     public void updateInventory(VendingMachine machine, Item item, int codeNumber) throws Exception {
-        throw new Exception("Inventory can not be updated in Selection state");
+        throw new Exception("Inventory cannot be updated in Selection state");
     }
 }
