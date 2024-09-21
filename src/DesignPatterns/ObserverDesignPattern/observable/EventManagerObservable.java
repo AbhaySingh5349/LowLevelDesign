@@ -5,7 +5,9 @@ import DesignPatterns.ObserverDesignPattern.observer.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EventManagerObservable implements Observable{
+public class
+
+EventManagerObservable implements Observable{
     private final List<Observer> observers;
 
     public EventManagerObservable() {

@@ -17,4 +17,3 @@ public class GiftWrapDecorator extends ProductDecorator {
         return decoratedProduct.getPrice() + wrapCost;
     }
 }
-

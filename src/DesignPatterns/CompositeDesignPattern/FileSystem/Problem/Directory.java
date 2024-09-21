@@ -1,14 +1,15 @@
 package DesignPatterns.CompositeDesignPattern.FileSystem.Problem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Directory {
     String directoryName;
     List<Object> objectList;
 
-    public Directory(String directoryName, List<Object> objectList) {
+    public Directory(String directoryName) {
         this.directoryName = directoryName;
-        this.objectList = objectList;
+        this.objectList = new ArrayList<>();
     }
 
     public void addObject(Object o){

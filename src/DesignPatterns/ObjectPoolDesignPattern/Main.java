@@ -11,6 +11,7 @@ public class Main {
         DBConnection c5 = dbConnectionPoolManager.getDBConnection();
         DBConnection c6 = dbConnectionPoolManager.getDBConnection();
         DBConnection c7 = dbConnectionPoolManager.getDBConnection();
+        DBConnection c8 = dbConnectionPoolManager.getDBConnection();
 
         dbConnectionPoolManager.releaseDBConnection(c6);
     }

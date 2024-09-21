@@ -29,6 +29,7 @@ public class Main {
 
         InventoryObservable inventoryObservable = new InventoryObservable();
         inventoryObservable.registerObserver(new PushObserver());
+        inventoryObservable.registerObserver(new EmailObserver());
 
         inventoryObservable.setStockCount(4);
     }

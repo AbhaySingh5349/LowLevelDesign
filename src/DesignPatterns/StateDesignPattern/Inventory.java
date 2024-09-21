@@ -7,7 +7,7 @@ public class Inventory {
     List<ItemShelf> inventory;
 
     Inventory(int itemCount) {
-        this.inventory = new ArrayList<>();;
+        this.inventory = new ArrayList<>();
         initialEmptyInventory(itemCount);
     }
 

@@ -11,3 +11,6 @@ public class NullVehicle implements Vehicle{
         return 0;
     }
 }
+
+
+
