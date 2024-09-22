@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="AmazonLockerService">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/FileSystem/Problem/Main.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="minor changes">
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/algorithms/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/algorithms/DoublyLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/algorithms/exceptions/InvalidElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/exceptions/StorageFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/strategy/EvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/strategy/HashMapBasedStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/strategy/LRUEvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CacheService/strategy/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ChainOfResponsibilityDesignPattern/LogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ChainOfResponsibilityDesignPattern/LogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/ArithmeticExpression/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/ArithmeticExpression/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/FileSystem/Problem/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/FileSystem/Problem/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/FileSystem/Problem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositeDesignPattern/FileSystem/Problem/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/DecoratorDesignPattern/GiftWrapDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/DecoratorDesignPattern/GiftWrapDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/NullObjectDesignPattern/NullVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/NullObjectDesignPattern/NullVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObjectPoolDesignPattern/DBConnectionPoolManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObjectPoolDesignPattern/DBConnectionPoolManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObjectPoolDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObjectPoolDesignPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObserverDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverDesignPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObserverDesignPattern/observable/EventManagerObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverDesignPattern/observable/EventManagerObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/StateDesignPattern/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/TemplateDesignPattern/PaymentFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/TemplateDesignPattern/PaymentFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,12 @@
     &quot;assignee&quot;: &quot;AbhaySingh5349&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AbhaySingh5349/LowLevelDesign.git&quot;,
-    &quot;accountId&quot;: &quot;e0bf59c3-aafb-435a-bba4-920f12a0b2dc&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AbhaySingh5349/LowLevelDesign.git",
+    "accountId": "7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -287,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725628633640</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1726919686857</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726919686857</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,6 +320,7 @@
     <MESSAGE value="ElevatorSystem" />
     <MESSAGE value="LibraryManagementSystem" />
     <MESSAGE value="AmazonLockerService" />
-    <option name="LAST_COMMIT_MESSAGE" value="AmazonLockerService" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
