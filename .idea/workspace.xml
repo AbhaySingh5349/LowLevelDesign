@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Chess design">
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Thread Safe implementation of custom hash map">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +33,12 @@
     &quot;assignee&quot;: &quot;AbhaySingh5349&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AbhaySingh5349/LowLevelDesign.git",
-    "accountId": "7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AbhaySingh5349/LowLevelDesign.git&quot;,
+    &quot;accountId&quot;: &quot;7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,17 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ElevatorSystem.executor": "Run",
+    "Application.LibrarySystem.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions",
+    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -298,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727025735716</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Thread Safe implementation of custom hash map">
+      <option name="closed" value="true" />
+      <created>1727361782372</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1727361782372</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BuilderDesignPattern" />
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="AbstractFactoryDesignPattern" />
     <MESSAGE value="ObjectPoolDesignPattern" />
@@ -327,6 +342,7 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="Cache design" />
     <MESSAGE value="Chess design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chess design" />
+    <MESSAGE value="Thread Safe implementation of custom hash map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Safe implementation of custom hash map" />
   </component>
 </project>
