@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Cache design">
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/MoveBaseCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/MoveBaseConditionFirstMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/NoMoveBaseCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/PieceCellOccupyBlocker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/PieceCellOccupyBlockerKingCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/PieceCellOccupyBlockerSelfPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/PieceMoveFurtherCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/conditions/PieceMoveFurtherConditionDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/enums/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/enums/PieceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/exceptions/InvalidMoveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/exceptions/PieceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/model/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/model/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/moves/NextCellProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/moves/PossibleMovesProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/moves/PossibleMovesProviderDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ChessGame/moves/PossibleMovesProviderHorizontal.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Chess design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,11 +290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1726981717008</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Chess design">
+      <option name="closed" value="true" />
+      <created>1727025735716</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1727025735716</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LLD for TicTacToe" />
     <MESSAGE value="BuilderDesignPattern" />
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="AbstractFactoryDesignPattern" />
@@ -340,6 +326,7 @@
     <MESSAGE value="AmazonLockerService" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="Cache design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cache design" />
+    <MESSAGE value="Chess design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chess design" />
   </component>
 </project>

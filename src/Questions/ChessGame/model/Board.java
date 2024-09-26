@@ -42,22 +42,24 @@ public class Board {
 
     // to check if player's King is getting killed by opponent or not
     public boolean isPlayerOnCheck(Player player) {
-        return checkIfPieceCanBeKilled(player.getPiece(PieceType.KING), kingCheckEvaluationBlockers(), player);
+//        return checkIfPieceCanBeKilled(player.getPiece(PieceType.KING), kingCheckEvaluationBlockers(), player);
+
+        return false;
     }
 
     // check if opponent's piece is getting killed
-    public boolean checkIfPieceCanBeKilled(Piece targetPiece, List<PieceCellOccupyBlocker> cellOccupyBlockers, Player player) {
-        for (int i = 0; i < boardSize; i++) {
-            for (int j = 0; j < boardSize; j++) {
-                Piece currentPiece = getCellAtLocation(i, j).getCurrentPiece();
-                if (currentPiece != null && !currentPiece.isPieceFromSamePlayer(targetPiece)) {
-                    List<Cell> nextPossibleCells = currentPiece.nextPossibleCells(this, cellOccupyBlockers, player);
-                    if (nextPossibleCells.contains(targetPiece.getCurrentCell())) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
+//    public boolean checkIfPieceCanBeKilled(Piece targetPiece, List<PieceCellOccupyBlocker> cellOccupyBlockers, Player player) {
+//        for (int i = 0; i < boardSize; i++) {
+//            for (int j = 0; j < boardSize; j++) {
+//                Piece currentPiece = getCellAtLocation(i, j).getCurrentPiece();
+//                if (currentPiece != null && !currentPiece.isPieceFromSamePlayer(targetPiece)) {
+//                    List<Cell> nextPossibleCells = currentPiece.nextPossibleCells(this, cellOccupyBlockers, player);
+//                    if (nextPossibleCells.contains(targetPiece.getCurrentCell())) {
+//                        return true;
+//                    }
+//                }
+//            }
+//        }
+//        return false;
+//    }
 }
