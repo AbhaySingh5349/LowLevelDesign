@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Thread Safe implementation of custom hash map">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Singleton.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Event Calendar design">
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/enums/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/enums/LocationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/enums/ParticipantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/enums/RSVPStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/LocationTypePhysical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/LocationTypeVirtual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/repository/IEventRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/repository/InMemoryEventRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/service/CalendarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/service/SlotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/strategy/ILocationTypeData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ElevatorSystem.executor": "Run",
-    "Application.LibrarySystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions" />
@@ -314,12 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727361782372</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Thread Safe implementation of Singleton class">
+      <option name="closed" value="true" />
+      <created>1727364274445</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1727364274445</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FactoryDesignPattern" />
-    <MESSAGE value="AbstractFactoryDesignPattern" />
     <MESSAGE value="ObjectPoolDesignPattern" />
     <MESSAGE value="StrategyDesignPattern" />
     <MESSAGE value="NullObjectDesignPattern" />
@@ -343,6 +363,8 @@
     <MESSAGE value="Cache design" />
     <MESSAGE value="Chess design" />
     <MESSAGE value="Thread Safe implementation of custom hash map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Safe implementation of custom hash map" />
+    <MESSAGE value="Thread Safe implementation of Singleton class" />
+    <MESSAGE value="Event Calendar design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Event Calendar design" />
   </component>
 </project>
