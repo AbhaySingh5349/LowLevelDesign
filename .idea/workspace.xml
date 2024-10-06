@@ -4,28 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Food Ordering System">
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/PostTicketResolutionPubSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/enums/AgentPreferenceStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/enums/AgentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/enums/TicketDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/enums/TicketPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/enums/TicketStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/model/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/repository/IAgentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/repository/ITicketRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/repository/InMemoryAgentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/repository/InMemoryTicketRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/service/AgentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/strategy/AgentWorkerPostTicketResolutionSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/strategy/CustomerNotifyPostTicketResolutionSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/strategy/IAgentPreferenceStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/strategy/IPostTicketResolutionSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/TicketResolutionSystem/strategy/RandomAgentStrategy.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Ticket Resolution System">
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/controller/RideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/IFilterData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/ISortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/RideFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/RideSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/SelectRideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/VacantSeatsCountSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/dto/VehicleTypeSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/enums/RideFilterName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/enums/RideSortPreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/enums/RideStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/enums/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/RideStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/model/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/IBookingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/IRideRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/IUserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/IVehicleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/InMemoryBookingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/InMemoryRideRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/InMemoryUserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/repository/InMemoryVehicleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/service/RideService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/IRideSortComparatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/IRideSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/ISortingDataStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/MostVacantComparatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/MostVacantRidePreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/VehicleNameSortingDataStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/strategy/VehicleTypeComparatorStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -357,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727720606935</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Ticket Resolution System">
+      <option name="closed" value="true" />
+      <created>1728141329209</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728141329209</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StrategyDesignPattern" />
     <MESSAGE value="NullObjectDesignPattern" />
     <MESSAGE value="CommandDesignPattern" />
     <MESSAGE value="IteratorDesignPattern" />
@@ -386,6 +407,7 @@
     <MESSAGE value="Thread Safe implementation of Singleton class" />
     <MESSAGE value="Event Calendar design" />
     <MESSAGE value="Food Ordering System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Food Ordering System" />
+    <MESSAGE value="Ticket Resolution System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ticket Resolution System" />
   </component>
 </project>
