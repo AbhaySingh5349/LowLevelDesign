@@ -4,40 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Ride Sharing System with extensible filter and sort">
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/dto/BeverageTypeOutletValidationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/dto/PriceValidationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/enums/BeverageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/enums/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/enums/MachineStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/enums/OutletStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/enums/QuantityUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Outlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/model/Quantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/service/BeverageTypeOutletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/service/NormalSelectOutletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/states/DispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/states/HasMoneyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/states/IState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/states/IdealState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/states/SelectionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/outlet/BeverageTypeAvailableOutletPicking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/outlet/FirstAvailableOutletPicking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/outlet/IOutletPickingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/outlet/IOutletServiceStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/recipe/IRecipeStepStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/recipe/PourWaterStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/recipe/SwitchOnGasStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/validations/BatteryValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/validations/FreeOutletValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/validations/IValidationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/validations/IngredientValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CoffeeMachine/strategy/validations/PriceValidation.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Coffee Machine System with generic type input data for validations">
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/dto/EmailData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/dto/SmsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/enums/TopicType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/JsonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/ThirdPartyEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/ThirdPartySms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/EmailNotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/IAttachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/INotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/SmsNotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/whenMapBasedTemplateApprachFails/IEmailData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/whenMapBasedTemplateApprachFails/NewRequestEmailData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/NotificationService/strategy/whenStrategiesImplementSameBehaviour/NotificationTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1728731362471</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Coffee Machine System with generic type input data for validations">
+      <option name="closed" value="true" />
+      <created>1728801479056</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728801479056</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IteratorDesignPattern" />
     <MESSAGE value="TemplateDesignPattern" />
     <MESSAGE value="ChainOfResponsibilityDesignPattern" />
     <MESSAGE value="MediatorDesignPattern" />
@@ -421,6 +414,7 @@
     <MESSAGE value="Ticket Resolution System" />
     <MESSAGE value="Ride Sharing System" />
     <MESSAGE value="Ride Sharing System with extensible filter and sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ride Sharing System with extensible filter and sort" />
+    <MESSAGE value="Coffee Machine System with generic type input data for validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coffee Machine System with generic type input data for validations" />
   </component>
 </project>

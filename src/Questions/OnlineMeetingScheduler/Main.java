@@ -41,7 +41,7 @@ public class Main {
             executorService.submit(task);
         }
 
-//        a.addParticipant(m1, b);
+        a.addParticipant(m1, b);
 //        a.addParticipant(m1, c);
 //        a.addParticipant(m1, d);
 
