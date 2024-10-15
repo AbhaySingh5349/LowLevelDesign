@@ -1,12 +1,16 @@
 package Questions.NotificationService.model;
 
 import Questions.NotificationService.enums.TopicType;
+import Questions.NotificationService.strategy.data.INotificationData;
 
 import java.util.Date;
 
 public class Notification {
     String id;
     String msg; // we can remove this, as user should not be allowed to send message at run-time, instead it should be backend templating
+
+//    INotificationData notificationData;
+
     TopicType type;
     User user;
     Date created_at;
