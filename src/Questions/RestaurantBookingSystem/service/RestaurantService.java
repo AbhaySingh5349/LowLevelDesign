@@ -6,6 +6,7 @@ import Questions.RestaurantBookingSystem.repository.IRestaurantRepo;
 import Questions.RestaurantBookingSystem.strategy.IRestaurantFilter;
 
 import java.util.List;
+import java.util.Random;
 
 public class RestaurantService {
     IRestaurantRepo restaurantRepo;
@@ -26,10 +27,15 @@ public class RestaurantService {
 //        System.out.println("Filtered Restaurants");
 //        filteredRestaurants.forEach(System.out::println);
 
-        Restaurant restaurant = !filteredRestaurants.isEmpty() ? filteredRestaurants.get(0) : null;
+//        Restaurant restaurant = !filteredRestaurants.isEmpty() ? filteredRestaurants.get(0) : null;
+
+        int random = new Random().nextInt(filteredRestaurants.size());
+        Restaurant restaurant = !filteredRestaurants.isEmpty()
+                ? filteredRestaurants.get(random)
+                : null;
 
         if(restaurant == null){
-            throw new IllegalArgumentException("No matching Restaurant available");
+//            throw new IllegalArgumentException("No matching Restaurant available");
         }
 
         return restaurant;

@@ -18,14 +18,20 @@ public class BookingService {
     }
 
     public void createBooking(String restaurantId, Slot slot){
-        boolean isSlotAvailable = slotService.isSlotAvailable(restaurantId, slot);
+//        synchronized (slot){
+//            boolean isSlotAvailable = slotService.isSlotAvailable(restaurantId, slot);
+//            if(isSlotAvailable){
+//                slotService.bookSlot(restaurantId, slot);
+//                Booking booking = new Booking(UUID.randomUUID().toString(), "user", restaurantId, slot, 2);
+//                bookingRepo.add(booking, restaurantId);
+//            }
+//        }
 
+        boolean isSlotAvailable = slotService.isSlotAvailable(restaurantId, slot);
         if(isSlotAvailable){
             slotService.bookSlot(restaurantId, slot);
             Booking booking = new Booking(UUID.randomUUID().toString(), "user", restaurantId, slot, 2);
             bookingRepo.add(booking, restaurantId);
-        }else{
-            System.out.println("Slot " + slot + " not available");
         }
     }
 

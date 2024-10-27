@@ -3,6 +3,7 @@ package Questions.RestaurantBookingSystem;
 import Questions.RestaurantBookingSystem.dto.SearchRestaurantRequest;
 import Questions.RestaurantBookingSystem.enums.CuisineType;
 import Questions.RestaurantBookingSystem.enums.RestaurantType;
+import Questions.RestaurantBookingSystem.model.Booking;
 import Questions.RestaurantBookingSystem.model.Restaurant;
 import Questions.RestaurantBookingSystem.model.Slot;
 import Questions.RestaurantBookingSystem.repository.*;
@@ -20,6 +21,9 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
@@ -96,25 +100,61 @@ public class Main {
         Slot slot = new Slot(LocalDate.now(), LocalTime.of(12, 0));
         System.out.println("booking slot: " + slot);
 
-        List<IRestaurantFilter> filters = List.of(new DietaryPreferenceFilter(RestaurantType.NON_VEG),
-                                                  new NameFilter("Pasta"),
-                                                  new SlotAvailableFilter(slotService, slot));
+        List<IRestaurantFilter> filters = List.of(new DietaryPreferenceFilter(RestaurantType.NON_VEG));
+
+        // new NameFilter("Pasta")
+        // new SlotAvailableFilter(slotService, slot)
 
         SearchRestaurantRequest searchRestaurantRequest = new SearchRestaurantRequest(filters);
-        Restaurant restaurant = restaurantService.getPreferredRestaurant(searchRestaurantRequest);
+//        Restaurant restaurant = restaurantService.getPreferredRestaurant(searchRestaurantRequest);
 
-        System.out.println("Booking at " + restaurant.getName() + " for " + slot);
-
+//        System.out.println("Booking at " + restaurant.getName() + " for " + slot);
+//
         IBookingRepo bookingRepo = new InMemoryBookingRepo();
         BookingService bookingService = new BookingService(bookingRepo, slotService);
+//
+//        System.out.println("previous booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
+//
+//        bookingService.createBooking(restaurant.getId(), slot);
+//
+//        System.out.println("post booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
+//        System.out.println("Available slots: " + slotService.getAvailableSlots(restaurant.getId(),LocalDate.now()));
+//
+//        System.out.println("Restaurant booking: " + bookingService.getRestaurantBookings(restaurant.getId()));
 
-        System.out.println("previous booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
+        ExecutorService executorService = Executors.newFixedThreadPool(8);
 
-        bookingService.createBooking(restaurant.getId(), slot);
+        for(int i=0;i<1000000;i++){
+//            final Restaurant restaurant = restaurantService.getPreferredRestaurant(searchRestaurantRequest);
 
-        System.out.println("post booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
-        System.out.println("Available slots: " + slotService.getAvailableSlots(restaurant.getId(),LocalDate.now()));
+//            Runnable task = () -> bookingService.createBooking(restaurant.getId(), slot);;
 
-        System.out.println("Restaurant booking: " + bookingService.getRestaurantBookings(restaurant.getId()));
+            Runnable task = () -> {
+                final Restaurant restaurant = restaurantService.getPreferredRestaurant(searchRestaurantRequest);
+                bookingService.createBooking(restaurant.getId(), slot);
+            };
+            executorService.submit(task);
+        }
+
+        executorService.shutdown();
+        try {
+            if (!executorService.awaitTermination(60, TimeUnit.SECONDS)) {
+                System.out.println("Some tasks did not finish within the time limit.");
+            } else {
+                System.out.println("All tasks completed within the time limit.");
+            }
+        } catch (InterruptedException e) {
+            System.err.println("Interrupted while waiting for tasks to complete.");
+            e.printStackTrace();
+        }
+
+        System.out.println("Attempting to print bookings...");
+        for(Restaurant restaurant : restaurantRepo.getAllRestaurants()){
+            System.out.println("Restaurant " + restaurant.getName());
+            List<Booking> bookings = bookingService.getRestaurantBookings(restaurant.getId());
+            if(bookings != null){
+                System.out.println(restaurant.getName() + " -> " + bookings.size());
+            }
+        }
     }
 }

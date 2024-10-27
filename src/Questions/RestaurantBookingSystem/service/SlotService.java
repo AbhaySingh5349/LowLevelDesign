@@ -60,6 +60,13 @@ public class SlotService {
 
     // Book a slot if available
     public void bookSlot(String restaurantId, Slot slot) {
+//        synchronized (slot){
+//            if(isSlotAvailable(restaurantId, slot)){
+//                slotRepo.removeAvailableSlot(restaurantId, slot);
+//                slotRepo.addBookedSlot(restaurantId, slot);
+//            }
+//        }
+
         slotRepo.removeAvailableSlot(restaurantId, slot);
         slotRepo.addBookedSlot(restaurantId, slot);
     }
