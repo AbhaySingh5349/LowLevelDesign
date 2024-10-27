@@ -3,14 +3,14 @@ package Questions.RestaurantBookingSystem.model;
 public class Booking {
     private final String id;
     private final String userId;
-    private final Restaurant restaurant;
+    private final String restaurantId;
     private final Slot slot;
     private final int numOfPeople;
 
-    public Booking(String id, String userId, Restaurant restaurant, Slot slot, int numOfPeople) {
+    public Booking(String id, String userId, String restaurantId, Slot slot, int numOfPeople) {
         this.id = id;
         this.userId = userId;
-        this.restaurant = restaurant;
+        this.restaurantId = restaurantId;
         this.slot = slot;
         this.numOfPeople = numOfPeople;
     }
@@ -23,8 +23,8 @@ public class Booking {
         return userId;
     }
 
-    public Restaurant getRestaurant() {
-        return restaurant;
+    public String getRestaurantId() {
+        return restaurantId;
     }
 
     public Slot getSlot() {
@@ -33,5 +33,16 @@ public class Booking {
 
     public int getNumOfPeople() {
         return numOfPeople;
+    }
+
+    @Override
+    public String toString() {
+        return "Booking{" +
+                "id='" + id + '\'' +
+                ", userId='" + userId + '\'' +
+                ", restaurantId='" + restaurantId + '\'' +
+                ", slot=" + slot +
+                ", numOfPeople=" + numOfPeople +
+                '}';
     }
 }

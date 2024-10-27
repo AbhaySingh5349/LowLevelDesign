@@ -5,11 +5,10 @@ import Questions.RestaurantBookingSystem.enums.CuisineType;
 import Questions.RestaurantBookingSystem.enums.RestaurantType;
 import Questions.RestaurantBookingSystem.model.Restaurant;
 import Questions.RestaurantBookingSystem.model.Slot;
-import Questions.RestaurantBookingSystem.repository.IBookingRepo;
-import Questions.RestaurantBookingSystem.repository.IRestaurantRepo;
-import Questions.RestaurantBookingSystem.repository.InMemoryBookingRepo;
-import Questions.RestaurantBookingSystem.repository.InMemoryRestaurantRepo;
+import Questions.RestaurantBookingSystem.repository.*;
+import Questions.RestaurantBookingSystem.service.BookingService;
 import Questions.RestaurantBookingSystem.service.RestaurantService;
+import Questions.RestaurantBookingSystem.service.SlotService;
 import Questions.RestaurantBookingSystem.strategy.DietaryPreferenceFilter;
 import Questions.RestaurantBookingSystem.strategy.IRestaurantFilter;
 import Questions.RestaurantBookingSystem.strategy.NameFilter;
@@ -81,32 +80,41 @@ public class Main {
         );
 
         IRestaurantRepo restaurantRepo = new InMemoryRestaurantRepo();
-        IBookingRepo bookingRepo = new InMemoryBookingRepo();
-
         RestaurantService restaurantService = new RestaurantService(restaurantRepo);
         restaurantRepo.add(restaurant1);
         restaurantRepo.add(restaurant2);
         restaurantRepo.add(restaurant3);
         restaurantRepo.add(restaurant4);
 
+        ISlotRepo slotRepo = new InMemorySlotRepo();
+        SlotService slotService = new SlotService(slotRepo);
+        slotService.initializeSlots(restaurant1, 7);
+        slotService.initializeSlots(restaurant2, 7);
+        slotService.initializeSlots(restaurant3, 7);
+        slotService.initializeSlots(restaurant4, 7);
+
         Slot slot = new Slot(LocalDate.now(), LocalTime.of(12, 0));
         System.out.println("booking slot: " + slot);
 
         List<IRestaurantFilter> filters = List.of(new DietaryPreferenceFilter(RestaurantType.NON_VEG),
                                                   new NameFilter("Pasta"),
-                                                  new SlotAvailableFilter(slot));
+                                                  new SlotAvailableFilter(slotService, slot));
 
         SearchRestaurantRequest searchRestaurantRequest = new SearchRestaurantRequest(filters);
         Restaurant restaurant = restaurantService.getPreferredRestaurant(searchRestaurantRequest);
-        restaurant.bookSlot(slot);
 
-        System.out.println("previous: " + restaurant.getBookedSlotsForDate(LocalDate.now()));
+        System.out.println("Booking at " + restaurant.getName() + " for " + slot);
 
-        System.out.println("later: " + restaurant.getBookedSlotsForDate(LocalDate.now()));
+        IBookingRepo bookingRepo = new InMemoryBookingRepo();
+        BookingService bookingService = new BookingService(bookingRepo, slotService);
 
-        System.out.println("Available slots: " + restaurant.getAvailableSlotsForDate(LocalDate.now()));
+        System.out.println("previous booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
 
-        restaurant.bookSlot(slot);
-        System.out.println("later 2: " + restaurant.getBookedSlotsForDate(LocalDate.now()));
+        bookingService.createBooking(restaurant.getId(), slot);
+
+        System.out.println("post booked: " + slotService.getBookedSlots(restaurant.getId(), LocalDate.now()));
+        System.out.println("Available slots: " + slotService.getAvailableSlots(restaurant.getId(),LocalDate.now()));
+
+        System.out.println("Restaurant booking: " + bookingService.getRestaurantBookings(restaurant.getId()));
     }
 }

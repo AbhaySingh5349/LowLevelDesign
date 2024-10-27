@@ -13,4 +13,5 @@ public interface IBookingRepo {
     void add(Booking booking, String restaurantId);
     Booking getBookingById(String id);
     List<Booking> getAllBookings();
+    List<Booking> getRestaurantBookings(String restaurantId);
 }
