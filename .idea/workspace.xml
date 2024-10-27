@@ -4,62 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="APIs Rate Limiter">
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/dto/SelectRideRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/enums/RideFilterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/enums/RideSortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/enums/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/model/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/model/Ride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/model/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/IBookingRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/IRideRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/IUserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/IVehicleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/InMemoryBookingRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/InMemoryRideRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/InMemoryUserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/repository/InMemoryVehicleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/service/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/service/RideService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/EarliestStartingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/MinCostRideComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/MostVacantRideComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/VehicleTypeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/IRideFilterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/RequiredSeatsFilterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/TravelRouteFilterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/sort/EarliestStartingSortData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/sort/IRideSortData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/sort/VehicleTypeSortData.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Ride Sharing service">
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/dto/SearchRestaurantRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/enums/CuisineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/enums/RestaurantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/model/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/model/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/model/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/IBookingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/IRestaurantRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/InMemoryBookingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/InMemoryRestaurantRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/service/RestaurantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/AreaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/CuisineFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/DietaryPreferenceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/IRestaurantFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/NameFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/SlotAvailableFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/dto/SelectRideRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/dto/SelectRideRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/enums/RideFilterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/enums/RideFilterType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/enums/RideSortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/enums/RideSortType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/enums/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/enums/VehicleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/model/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/model/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/model/Ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/model/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/repository/IBookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/repository/IBookingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/repository/IRideRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/repository/IRideRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/repository/InMemoryBookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/repository/InMemoryBookingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/repository/InMemoryRideRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/repository/InMemoryRideRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/service/RideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/service/RideService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/Comparator/EarliestStartingRideComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/Comparator/EarliestStartingRideComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/Comparator/MinCostRideComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/Comparator/MinCostRideComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/Comparator/MostVacantRideComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/Comparator/MostVacantRideComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/Comparator/VehicleTypeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/Comparator/VehicleTypeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/filter/IRideFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/filter/IRideFilterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/filter/RequiredSeatsFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/filter/RequiredSeatsFilterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/filter/TravelRouteFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/filter/TravelRouteFilterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/sort/EarliestStartingSortData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/sort/EarliestStartingSortData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/sort/ISortData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/sort/ISortData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSort/strategy/sort/VehicleTypeSortData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingGenerics/strategy/sort/VehicleTypeSortData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/model/Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/service/RideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/service/RideService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,19 +67,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ElevatorSystem.executor": "Run",
-    "Application.LibrarySystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions" />
@@ -447,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1728997147218</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Ride Sharing service">
+      <option name="closed" value="true" />
+      <created>1729934974627</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729934974627</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MediatorDesignPattern" />
     <MESSAGE value="InterpreterDesignPattern" />
     <MESSAGE value="ObserverDesignPattern" />
     <MESSAGE value="CompositeDesignPattern" />
@@ -476,6 +450,7 @@
     <MESSAGE value="Coffee Machine System with generic type input data for validations" />
     <MESSAGE value="Notification Service system" />
     <MESSAGE value="APIs Rate Limiter" />
-    <option name="LAST_COMMIT_MESSAGE" value="APIs Rate Limiter" />
+    <MESSAGE value="Ride Sharing service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ride Sharing service" />
   </component>
 </project>

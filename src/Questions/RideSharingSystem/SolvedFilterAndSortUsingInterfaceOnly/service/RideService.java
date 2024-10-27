@@ -11,8 +11,6 @@ import Questions.RideSharingSystem.SolvedFilterAndSortUsingInterfaceOnly.strateg
 import Questions.RideSharingSystem.SolvedFilterAndSortUsingInterfaceOnly.strategy.filter.IRideFilterData;
 import Questions.RideSharingSystem.SolvedFilterAndSortUsingInterfaceOnly.strategy.sort.IRideSortData;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
