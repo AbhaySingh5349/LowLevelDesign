@@ -42,6 +42,7 @@ public class OrderService {
     }
 
     public void confirmOrder(String orderId) {
+        reservationService.cancelReservation(orderId);
         Order order = orderRepo.getOrderById(orderId);
         List<OrderItem> items = order.getOrderItems();
         for (OrderItem item : items) {
