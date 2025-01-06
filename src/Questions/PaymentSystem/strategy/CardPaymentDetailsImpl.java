@@ -1,5 +1,7 @@
 package Questions.PaymentSystem.strategy;
 
+import Questions.PaymentSystem.enums.PaymentMethod;
+
 public class CardPaymentDetailsImpl implements IPaymentDetails{
     String senderCardNumber;
     String senderCardCVV;
@@ -53,5 +55,10 @@ public class CardPaymentDetailsImpl implements IPaymentDetails{
                 ", receiverBankAccountId='" + receiverBankAccountId + '\'' +
                 ", amount=" + amount +
                 '}';
+    }
+
+    @Override
+    public boolean doesSupport(PaymentMethod paymentMethod) {
+        return paymentMethod.equals(PaymentMethod.CARD);
     }
 }

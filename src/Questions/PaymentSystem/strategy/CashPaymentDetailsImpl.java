@@ -1,5 +1,7 @@
 package Questions.PaymentSystem.strategy;
 
+import Questions.PaymentSystem.enums.PaymentMethod;
+
 public class CashPaymentDetailsImpl implements IPaymentDetails{
     int amount;
 
@@ -20,5 +22,10 @@ public class CashPaymentDetailsImpl implements IPaymentDetails{
         return "CashPaymentDetailsImpl{" +
                 "amount=" + amount +
                 '}';
+    }
+
+    @Override
+    public boolean doesSupport(PaymentMethod paymentMethod) {
+        return paymentMethod.equals(PaymentMethod.CASH);
     }
 }
