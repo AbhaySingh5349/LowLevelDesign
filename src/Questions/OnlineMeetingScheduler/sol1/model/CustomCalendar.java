@@ -1,6 +1,6 @@
-package Questions.OnlineMeetingScheduler.model;
+package Questions.OnlineMeetingScheduler.sol1.model;
 
-import Questions.OnlineMeetingScheduler.exceptions.CalendarException;
+import Questions.OnlineMeetingScheduler.sol1.exceptions.CalendarException;
 
 import java.util.ArrayList;
 import java.util.List;

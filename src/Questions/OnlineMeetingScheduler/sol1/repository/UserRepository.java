@@ -1,6 +1,6 @@
-package Questions.OnlineMeetingScheduler.repository;
+package Questions.OnlineMeetingScheduler.sol1.repository;
 
-import Questions.OnlineMeetingScheduler.model.User;
+import Questions.OnlineMeetingScheduler.sol1.model.User;
 
 public interface UserRepository {
     void addUser(User user);

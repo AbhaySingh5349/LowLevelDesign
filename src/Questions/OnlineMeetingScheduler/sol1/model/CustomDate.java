@@ -1,4 +1,4 @@
-package Questions.OnlineMeetingScheduler.model;
+package Questions.OnlineMeetingScheduler.sol1.model;
 
 public class CustomDate {
     private Integer month;
@@ -21,7 +21,7 @@ public class CustomDate {
         Integer d1 = this.month*30 + this.days;
         Integer d2 = other.month*30 + other.days;
 
-        return Math.abs(d1 - d2)+1;
+        return Math.abs(d1 - d2);
     }
 
     public CustomDate addDays(Integer n){

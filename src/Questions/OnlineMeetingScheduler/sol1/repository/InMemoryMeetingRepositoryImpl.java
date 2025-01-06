@@ -1,6 +1,6 @@
-package Questions.OnlineMeetingScheduler.repository;
+package Questions.OnlineMeetingScheduler.sol1.repository;
 
-import Questions.OnlineMeetingScheduler.model.Meeting;
+import Questions.OnlineMeetingScheduler.sol1.model.Meeting;
 
 import java.util.HashMap;
 import java.util.Map;

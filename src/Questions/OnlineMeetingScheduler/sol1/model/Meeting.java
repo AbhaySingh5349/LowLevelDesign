@@ -1,4 +1,4 @@
-package Questions.OnlineMeetingScheduler.model;
+package Questions.OnlineMeetingScheduler.sol1.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Order Management System" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Order Management System">
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/CustomCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/CustomDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/repository/ICalendarRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/repository/IMeetingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/repository/InMemoryCalendarRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/repository/InMemoryMeetingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/service/CalendarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/service/DateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/service/MeetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/CardPaymentThirdPartyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/CashPaymentThirdPartyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CardPaymentDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CashPaymentDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/IPaymentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/EventCalendar/service/CalendarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/EventCalendar/service/CalendarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/exceptions/CalendarException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/exceptions/CalendarException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/CustomCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/model/CustomCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/CustomDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/model/CustomDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/model/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/CalendarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/CalendarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryCalendarRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/InMemoryCalendarRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryMeetingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/InMemoryMeetingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/InMemoryUserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/InMemoryUserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/MeetingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/MeetingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/service/MeetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol1/service/MeetingService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -440,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730123006225</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Order Management System">
+      <option name="closed" value="true" />
+      <created>1730125296728</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1730125296728</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

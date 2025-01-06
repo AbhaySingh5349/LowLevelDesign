@@ -1,12 +1,12 @@
-package Questions.OnlineMeetingScheduler.service;
+package Questions.OnlineMeetingScheduler.sol1.service;
 
-import Questions.OnlineMeetingScheduler.model.CustomCalendar;
-import Questions.OnlineMeetingScheduler.model.CustomDate;
-import Questions.OnlineMeetingScheduler.model.Meeting;
-import Questions.OnlineMeetingScheduler.model.User;
-import Questions.OnlineMeetingScheduler.repository.CalendarRepository;
-import Questions.OnlineMeetingScheduler.repository.MeetingRepository;
-import Questions.OnlineMeetingScheduler.repository.UserRepository;
+import Questions.OnlineMeetingScheduler.sol1.model.CustomCalendar;
+import Questions.OnlineMeetingScheduler.sol1.model.CustomDate;
+import Questions.OnlineMeetingScheduler.sol1.model.Meeting;
+import Questions.OnlineMeetingScheduler.sol1.model.User;
+import Questions.OnlineMeetingScheduler.sol1.repository.CalendarRepository;
+import Questions.OnlineMeetingScheduler.sol1.repository.MeetingRepository;
+import Questions.OnlineMeetingScheduler.sol1.repository.UserRepository;
 
 public class MeetingService {
     UserRepository userRepository;

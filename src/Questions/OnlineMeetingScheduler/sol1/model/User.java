@@ -1,4 +1,4 @@
-package Questions.OnlineMeetingScheduler.model;
+package Questions.OnlineMeetingScheduler.sol1.model;
 
 public class User {
     private final String id;

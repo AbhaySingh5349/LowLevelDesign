@@ -35,8 +35,6 @@ public class CalendarService {
             }).collect(Collectors.toList());
         }
 
-
-
         return allSlots;
     }
 

@@ -1,15 +1,14 @@
-package Questions.OnlineMeetingScheduler;
+package Questions.OnlineMeetingScheduler.sol1;
 
-import Questions.OnlineMeetingScheduler.model.CustomCalendar;
-import Questions.OnlineMeetingScheduler.model.CustomDate;
-import Questions.OnlineMeetingScheduler.model.Meeting;
-import Questions.OnlineMeetingScheduler.model.User;
-import Questions.OnlineMeetingScheduler.repository.InMemoryCalendarRepositoryImpl;
-import Questions.OnlineMeetingScheduler.repository.InMemoryMeetingRepositoryImpl;
-import Questions.OnlineMeetingScheduler.repository.InMemoryUserRepositoryImpl;
-import Questions.OnlineMeetingScheduler.service.MeetingService;
+import Questions.OnlineMeetingScheduler.sol1.model.CustomCalendar;
+import Questions.OnlineMeetingScheduler.sol1.model.CustomDate;
+import Questions.OnlineMeetingScheduler.sol1.model.Meeting;
+import Questions.OnlineMeetingScheduler.sol1.model.User;
+import Questions.OnlineMeetingScheduler.sol1.repository.InMemoryCalendarRepositoryImpl;
+import Questions.OnlineMeetingScheduler.sol1.repository.InMemoryMeetingRepositoryImpl;
+import Questions.OnlineMeetingScheduler.sol1.repository.InMemoryUserRepositoryImpl;
+import Questions.OnlineMeetingScheduler.sol1.service.MeetingService;
 
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

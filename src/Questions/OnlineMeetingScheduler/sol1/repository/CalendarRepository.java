@@ -1,6 +1,6 @@
-package Questions.OnlineMeetingScheduler.repository;
+package Questions.OnlineMeetingScheduler.sol1.repository;
 
-import Questions.OnlineMeetingScheduler.model.CustomCalendar;
+import Questions.OnlineMeetingScheduler.sol1.model.CustomCalendar;
 
 public interface CalendarRepository {
     void addCalendar(CustomCalendar calendar);
