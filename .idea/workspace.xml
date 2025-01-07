@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="PaymentService map based implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/SocialMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/SocialMedia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/service/FeedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/service/FeedService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/strategy/feed/PqAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/strategy/feed/PqAlgo.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="SocialMedia updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +35,9 @@
     &quot;accountId&quot;: &quot;7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -76,14 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00001" summary="LLD for TicTacToe">
-      <option name="closed" value="true" />
-      <created>1716298040687</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716298040687</updated>
     </task>
     <task id="LOCAL-00002" summary="LLD for TicTacToe">
       <option name="closed" value="true" />
@@ -469,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736162867236</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="SocialMedia updates">
+      <option name="closed" value="true" />
+      <created>1736257656611</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736257656611</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MementoDesignPattern" />
     <MESSAGE value="AdapterDesignPattern" />
     <MESSAGE value="ParkingLot" />
     <MESSAGE value="ElevatorSystem" />
@@ -498,6 +495,7 @@
     <MESSAGE value="Order Management System" />
     <MESSAGE value="PaymentService basic implementation" />
     <MESSAGE value="PaymentService map based implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="PaymentService map based implementation" />
+    <MESSAGE value="SocialMedia updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="SocialMedia updates" />
   </component>
 </project>

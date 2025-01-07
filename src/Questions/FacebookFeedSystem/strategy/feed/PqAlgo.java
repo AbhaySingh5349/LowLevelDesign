@@ -12,7 +12,7 @@ public class PqAlgo implements IFeedGenerationAlgoStrategy{
 
     public PqAlgo() {
         this.pq = new PriorityQueue<>((p1, p2) -> {
-            return Long.compare(p1.getTimestamp(), p2.getTimestamp()); // min-heap (ascending)
+            return Long.compare(p1.getTimestamp(), p2.getTimestamp()); // min-heap (ascending order)
         });
     }
 
