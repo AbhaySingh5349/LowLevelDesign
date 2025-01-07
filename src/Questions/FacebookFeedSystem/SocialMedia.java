@@ -11,6 +11,11 @@ import Questions.FacebookFeedSystem.service.UserService;
 import Questions.FacebookFeedSystem.strategy.content.TextPostContent;
 import Questions.FacebookFeedSystem.strategy.feed.PqAlgo;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+
 public class SocialMedia {
     public static void main(String[] args) {
         IUserRepo userRepo = new InMemoryUserRepo();

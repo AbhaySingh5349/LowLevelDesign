@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="PaymentService map based implementation">
-      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceListBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CardPaymentHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CashPaymentHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/IPaymentHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/CashPaymentThirdPartyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/CashPaymentThirdPartyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceMapBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceMapBased.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CardPaymentDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CardPaymentDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CashPaymentDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/CashPaymentDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/IPaymentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/strategy/IPaymentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/SocialMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/SocialMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/service/FeedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/service/FeedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/strategy/feed/PqAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/FacebookFeedSystem/strategy/feed/PqAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>

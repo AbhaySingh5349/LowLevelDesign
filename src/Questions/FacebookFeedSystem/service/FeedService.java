@@ -23,7 +23,7 @@ public class FeedService {
 
         List<Post> posts = followers.stream()
                 .flatMap(id -> postService.getPostsByUserId(id).stream())
-                .toList();
+                .collect(Collectors.toList());
 
         List<Post> feedPosts = feedGenerationAlgo.generateFeed(posts, 10);
         displayFeed(feedPosts);
