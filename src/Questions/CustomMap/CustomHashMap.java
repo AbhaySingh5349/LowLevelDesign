@@ -7,7 +7,7 @@ public class CustomHashMap<K, V>{
     private final int DEFAULT_SIZE = 4;
     private int nodesCount;
     private int bucketSize;
-    private LinkedList<Node>[] buckets;
+    private LinkedList<Node<K, V>>[] buckets;
 
     public CustomHashMap(){
         this.nodesCount = 0;
@@ -21,16 +21,15 @@ public class CustomHashMap<K, V>{
     }
 
     private void rehash(){
-        LinkedList<Node>[] oldBuckets = buckets;
+        LinkedList<Node<K, V>>[] oldBuckets = buckets;
 
         this.bucketSize *= 2;
         this.nodesCount = 0;
         this.buckets = new LinkedList[bucketSize];
         for(int i=0;i<bucketSize;i++) buckets[i] = new LinkedList<>();
 
-        for(int i=0;i<oldBuckets.length;i++){
-            LinkedList<Node> ll = oldBuckets[i];
-            for(Node node : ll){
+        for (LinkedList<Node<K, V>> ll : oldBuckets) {
+            for (Node<K, V> node : ll) {
                 K key = (K) node.getKey();
                 V value = (V) node.getValue();
                 put(key, value);
@@ -39,9 +38,9 @@ public class CustomHashMap<K, V>{
     }
 
     private int getKeyIndexInList(K key, int bucketIdx){
-        LinkedList<Node> ll = buckets[bucketIdx];
+        LinkedList<Node<K, V>> ll = buckets[bucketIdx];
         for(int i=0;i<ll.size();i++){
-            Node node = ll.get(i);
+            Node<K, V> node = ll.get(i);
             if(node.getKey().equals(key)){
                 return i;
             }
@@ -55,7 +54,7 @@ public class CustomHashMap<K, V>{
         int keyIdx = getKeyIndexInList(key, bucketIdx);
 
         if(keyIdx == -1){
-            buckets[bucketIdx].add(new Node(key, value));
+            buckets[bucketIdx].add(new Node<>(key, value));
             this.nodesCount++;
         }else{
             buckets[bucketIdx].get(keyIdx).setValue(value);
@@ -109,8 +108,8 @@ public class CustomHashMap<K, V>{
     public List<K> keySet(){
         List<K> keys = new LinkedList<>();
         for(int i=0;i<bucketSize;i++){
-            LinkedList<Node> ll = buckets[i];
-            for(Node node : ll){
+            LinkedList<Node<K, V>> ll = buckets[i];
+            for(Node<K, V> node : ll){
                 K key = (K) node.getKey();
                 keys.add(key);
             }

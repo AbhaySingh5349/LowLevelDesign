@@ -1,7 +1,5 @@
 package Questions.OnlineMeetingScheduler.sol2.model;
 
-import Questions.OnlineMeetingScheduler.sol2.model.CustomDate;
-
 import java.util.ArrayList;
 import java.util.List;
 

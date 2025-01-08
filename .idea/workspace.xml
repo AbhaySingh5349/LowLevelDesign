@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="SocialMedia updates" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="SocialMedia updates">
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/CustomCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineMeetingScheduler/sol2/model/CustomCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/VehicleTypeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/VehicleTypeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/IRideFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/IRideFilterData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/RequiredSeatsFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/RequiredSeatsFilterData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/TravelRouteFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/filter/TravelRouteFilterData.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,14 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00002" summary="LLD for TicTacToe">
-      <option name="closed" value="true" />
-      <created>1716301374532</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716301374532</updated>
     </task>
     <task id="LOCAL-00003" summary="BuilderDesignPattern">
       <option name="closed" value="true" />
@@ -467,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736257656611</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="SocialMedia updates">
+      <option name="closed" value="true" />
+      <created>1736257884858</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736257884858</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

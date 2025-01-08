@@ -25,7 +25,7 @@ public class VehicleTypeComparator implements Comparator<Ride> {
         int r1Priority = getVehiclePriority(r1.getVehicle().getType(), preferredVehicleType);
         int r2Priority = getVehiclePriority(r2.getVehicle().getType(), preferredVehicleType);
 
-        return Integer.compare(r1Priority, r2Priority);
+        return Integer.compare(r1Priority, r2Priority); // ascending order
     }
 
     private int getVehiclePriority(VehicleType vehicleType, VehicleType preferredVehicleType){
