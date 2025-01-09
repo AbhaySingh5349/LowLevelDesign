@@ -38,8 +38,7 @@ public class CalendarService {
         return allSlots;
     }
 
-    public List<Slot>
-    getBookedSlots(User user, Long start, Long end){
+    public List<Slot> getBookedSlots(User user, Long start, Long end){
         List<Event> events = eventRepo.getUserEvents(user, start, end);
         return events.stream().map(event -> event.getSlot()).collect(Collectors.toList());
     }

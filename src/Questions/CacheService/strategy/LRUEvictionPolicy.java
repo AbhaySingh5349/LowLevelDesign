@@ -3,7 +3,6 @@ package Questions.CacheService.strategy;
 import Questions.CacheService.algorithms.DoublyLinkedList;
 import Questions.CacheService.algorithms.DoublyLinkedListNode;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

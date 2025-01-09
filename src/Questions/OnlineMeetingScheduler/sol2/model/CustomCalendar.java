@@ -1,40 +1,34 @@
 package Questions.OnlineMeetingScheduler.sol2.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class CustomCalendar {
-    private final String id;
     private final String userId;
-    private final List<String> acceptedMeetings;
-    private final List<String> pendingInvites;
-    private final List<CustomDate> unavailableDates;
+    private final Set<String> acceptedMeetings;
+    private final Set<String> pendingInvites;
+    private final Set<CustomDate> unavailableDates;
 
-    public CustomCalendar(String id, String userId) {
-        this.id = id;
+    public CustomCalendar(String userId) {
         this.userId = userId;
-        this.acceptedMeetings = new ArrayList<>();
-        this.pendingInvites = new ArrayList<>();
-        this.unavailableDates = new ArrayList<>();
-    }
-
-    public String getId() {
-        return id;
+        this.acceptedMeetings = new HashSet<>();
+        this.pendingInvites = new HashSet<>();
+        this.unavailableDates = new HashSet<>();
     }
 
     public String getUserId() {
         return userId;
     }
 
-    public List<String> getAcceptedMeetings() {
+    public Set<String> getAcceptedMeetings() {
         return acceptedMeetings;
     }
 
-    public List<String> getPendingInvites() {
+    public Set<String> getPendingInvites() {
         return pendingInvites;
     }
 
-    public List<CustomDate> getUnavailableDates() {
+    public Set<CustomDate> getUnavailableDates() {
         return unavailableDates;
     }
 }

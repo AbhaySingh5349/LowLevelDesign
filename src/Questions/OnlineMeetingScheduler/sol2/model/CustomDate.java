@@ -32,4 +32,12 @@ public class CustomDate {
     public int hashCode() {
         return Objects.hash(month, day);
     }
+
+    @Override
+    public String toString() {
+        return "CustomDate{" +
+                "month=" + month +
+                ", day=" + day +
+                '}';
+    }
 }

@@ -30,7 +30,9 @@ public class InMemoryMeetingRepo implements IMeetingRepo{
     public List<Meeting> getMeetingsByUser(String userId) {
         List<Meeting> meetings = new ArrayList<>(meetingMap.values());
         return meetings.stream()
-                .filter(meeting -> meeting.getHostId().equals(userId) || meeting.getParticipantIds().contains(userId))
+                .filter(meeting -> meeting.getMeetingMembers()
+                                          .stream()
+                                          .anyMatch(member -> member.getUserId().equals(userId)))
                 .collect(Collectors.toList());
     }
 }

@@ -1,19 +1,17 @@
 package Questions.OnlineMeetingScheduler.sol2.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Meeting {
     private final String id;
     private final CustomDate date;
-    private final String hostId;
-    private final List<String> participantIds;
+    private Set<MeetingMember> meetingMembers;
 
-    public Meeting(String id, CustomDate date, String hostId) {
+    public Meeting(String id, CustomDate date, Set<MeetingMember> meetingMembers) {
         this.id = id;
         this.date = date;
-        this.hostId = hostId;
-        this.participantIds = new ArrayList<>();
+        this.meetingMembers = meetingMembers;
     }
 
     public String getId() {
@@ -24,11 +22,11 @@ public class Meeting {
         return date;
     }
 
-    public String getHostId() {
-        return hostId;
+    public Set<MeetingMember> getMeetingMembers() {
+        return meetingMembers;
     }
 
-    public List<String> getParticipantIds() {
-        return participantIds;
+    public void setMeetingMembers(Set<MeetingMember> meetingMembers) {
+        this.meetingMembers = meetingMembers;
     }
 }

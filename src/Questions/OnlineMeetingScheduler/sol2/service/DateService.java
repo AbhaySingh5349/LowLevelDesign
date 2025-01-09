@@ -16,4 +16,16 @@ public class DateService {
         int days = date.getMonth()*30 + date.getDay() + n;
         return new CustomDate(days/30, days%30);
     }
+
+    public boolean isDateWithinRange(CustomDate startDate, CustomDate endDate, CustomDate targetDate) {
+        return (compareDates(targetDate, startDate) >= 0 && compareDates(targetDate, endDate) <= 0);
+    }
+
+    // Returns -1 if date1 < date2, 0 if equal, 1 if date1 > date2
+    private int compareDates(CustomDate date1, CustomDate date2) {
+        if (!date1.getMonth().equals(date2.getMonth())) {
+            return date1.getMonth().compareTo(date2.getMonth());
+        }
+        return date1.getDay().compareTo(date2.getDay());
+    }
 }

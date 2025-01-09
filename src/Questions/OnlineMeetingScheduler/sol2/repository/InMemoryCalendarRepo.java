@@ -17,12 +17,11 @@ public class InMemoryCalendarRepo implements ICalendarRepo{
 
     @Override
     public void add(CustomCalendar calendar) {
-        calendarMap.put(calendar.getId(), calendar);
+        calendarMap.put(calendar.getUserId(), calendar);
     }
 
     @Override
     public CustomCalendar getCalendarForUser(String userId) {
-        List<CustomCalendar> calendars = new ArrayList<>(calendarMap.values());
-        return calendars.stream().filter(calendar -> calendar.getUserId().equals(userId)).findFirst().orElse(null);
+        return calendarMap.get(userId);
     }
 }
