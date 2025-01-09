@@ -98,7 +98,7 @@ public class Main {
         slotService.initializeSlots(restaurant4, 7);
 
         Slot slot = new Slot(LocalDate.now(), LocalTime.of(12, 0));
-        System.out.println("booking slot: " + slot);
+        System.out.println("preferred booking slot: " + slot);
 
         List<IRestaurantFilter> filters = List.of(new DietaryPreferenceFilter(RestaurantType.NON_VEG));
 
@@ -153,7 +153,7 @@ public class Main {
             System.out.println("Restaurant " + restaurant.getName());
             List<Booking> bookings = bookingService.getRestaurantBookings(restaurant.getId());
             if(bookings != null){
-                System.out.println(restaurant.getName() + " -> " + bookings.size());
+                System.out.println(restaurant.getName() + " -> " + bookings);
             }
         }
     }

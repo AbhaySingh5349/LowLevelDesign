@@ -3,10 +3,12 @@ package Questions.RestaurantBookingSystem.repository;
 import Questions.RestaurantBookingSystem.model.Slot;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class InMemorySlotRepo implements ISlotRepo {
     // Restaurant ID -> Date -> Slots
@@ -51,5 +53,32 @@ public class InMemorySlotRepo implements ISlotRepo {
     public boolean isSlotAvailable(String restaurantId, Slot slot) {
         LocalDate date = slot.getDate();
         return getAvailableSlots(restaurantId, date).contains(slot);
+    }
+
+    // get available slots for a restaurant on a given date and between a time range
+    @Override
+    public List<Slot> getAvailableSlotsForRestaurantWithinTimeRange(String restaurantId, LocalDate date, LocalTime startTime, LocalTime endTime) {
+        List<Slot> availableSlots = getAvailableSlots(restaurantId, date);
+        return availableSlots.stream()
+                .filter(slot -> slot.getStartTime().isAfter(startTime) && slot.getEndTime().isBefore(endTime))
+                .collect(Collectors.toList());
+    }
+
+    // Get available slots for a restaurant on a given date and before a specific time
+    @Override
+    public List<Slot> getAvailableSlotsForRestaurantBeforeTime(String restaurantId, LocalDate date, LocalTime time) {
+        List<Slot> availableSlots = getAvailableSlots(restaurantId, date);
+        return availableSlots.stream()
+                .filter(slot -> slot.getEndTime().isBefore(time))
+                .collect(Collectors.toList());
+    }
+
+    // Get available slots for a restaurant on a given date and after a specific time
+    @Override
+    public List<Slot> getAvailableSlotsForRestaurantAfterTime(String restaurantId, LocalDate date, LocalTime time) {
+        List<Slot> availableSlots = getAvailableSlots(restaurantId, date);
+        return availableSlots.stream()
+                .filter(slot -> slot.getStartTime().isAfter(time))
+                .collect(Collectors.toList());
     }
 }

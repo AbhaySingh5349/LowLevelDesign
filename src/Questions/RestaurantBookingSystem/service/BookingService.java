@@ -4,7 +4,6 @@ import Questions.RestaurantBookingSystem.model.Booking;
 import Questions.RestaurantBookingSystem.model.Slot;
 import Questions.RestaurantBookingSystem.repository.IBookingRepo;
 
-import javax.swing.plaf.PanelUI;
 import java.util.List;
 import java.util.UUID;
 
