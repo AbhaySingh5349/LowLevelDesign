@@ -14,6 +14,7 @@ public class PaymentServiceListBased {
     }
 
     public void pay(IPaymentDetails paymentDetails){
+        
         for(IPaymentHandler paymentHandler : paymentHandlerList){
             if(paymentHandler.doesSupport(paymentDetails)){
                 paymentHandler.support(paymentDetails);

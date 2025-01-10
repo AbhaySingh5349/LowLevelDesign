@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Online meeting system">
-      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/AvailableAfterTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/AvailableBeforeTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/strategy/AvailableBetweenTime.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Restaurant Booking system">
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/enums/EntityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/enums/PlayerSelectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/model/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/model/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/repository/CellRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/repository/LadderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/repository/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/repository/SnakeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/service/LadderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/service/SnakeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/entity/DiceEntityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/entity/IGameEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/entity/LadderEntityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/entity/SnakeEntityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/IPlayerSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/IPlayerSelectionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/RandomPlayerSelectionDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/RandomPlayerSelectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/RoundRobinPlayerSelectionDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/SnakesAndLadders/strategy/selection/RoundRobinPlayerSelectionImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/ISlotRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/ISlotRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/InMemorySlotRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/repository/InMemorySlotRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RestaurantBookingSystem/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceListBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/PaymentSystem/service/PaymentServiceListBased.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -82,14 +102,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00005" summary="AbstractFactoryDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724258220306</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724258220306</updated>
     </task>
     <task id="LOCAL-00006" summary="ObjectPoolDesignPattern">
       <option name="closed" value="true" />
@@ -475,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736391480165</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Restaurant Booking system">
+      <option name="closed" value="true" />
+      <created>1736404559493</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736404559493</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ElevatorSystem" />
     <MESSAGE value="LibraryManagementSystem" />
     <MESSAGE value="AmazonLockerService" />
     <MESSAGE value="minor changes" />
@@ -504,6 +523,7 @@
     <MESSAGE value="SocialMedia updates" />
     <MESSAGE value="minor modifications in map implementation" />
     <MESSAGE value="Online meeting system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Online meeting system" />
+    <MESSAGE value="Restaurant Booking system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restaurant Booking system" />
   </component>
 </project>
