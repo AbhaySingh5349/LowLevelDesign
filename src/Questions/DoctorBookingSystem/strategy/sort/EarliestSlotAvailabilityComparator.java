@@ -17,8 +17,12 @@ public class EarliestSlotAvailabilityComparator implements Comparator<User> {
 
     @Override
     public int compare(User u1, User u2) {
-        List<Slot> d1_slots = slotRepository.getAvailableSlots(u1.getId());
-        List<Slot> d2_slots = slotRepository.getAvailableSlots(u2.getId());
+//        List<Slot> d1_slots = slotRepository.getAvailableSlots(u1.getId());
+//        List<Slot> d2_slots = slotRepository.getAvailableSlots(u2.getId());
+
+        // to allow queuing for multiple patients for same slot
+        List<Slot> d1_slots = slotRepository.getAllSlots(u1.getId());
+        List<Slot> d2_slots = slotRepository.getAllSlots(u2.getId());
 
         Slot earliestSlot_1 = d1_slots.stream()
                 .min((s1, s2) -> s1.getStartTime().compareTo(s2.getStartTime()))

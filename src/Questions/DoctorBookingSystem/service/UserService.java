@@ -1,8 +1,11 @@
 package Questions.DoctorBookingSystem.service;
 
+import Questions.DoctorBookingSystem.enums.BookingStatus;
 import Questions.DoctorBookingSystem.enums.UserType;
+import Questions.DoctorBookingSystem.model.Booking;
 import Questions.DoctorBookingSystem.model.Slot;
 import Questions.DoctorBookingSystem.model.User;
+import Questions.DoctorBookingSystem.repository.BookingRepository;
 import Questions.DoctorBookingSystem.repository.SlotRepository;
 import Questions.DoctorBookingSystem.repository.UserRepository;
 import Questions.DoctorBookingSystem.strategy.actions.AddSlotsActionDetails;
@@ -13,19 +16,23 @@ import Questions.DoctorBookingSystem.strategy.filter.IFilterDetails;
 import Questions.DoctorBookingSystem.strategy.sort.ISort;
 import Questions.DoctorBookingSystem.strategy.sort.ISortDetails;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 
 public class UserService {
     private final UserRepository userRepository;
     private final List<IFilter> systemFilters;
     private final List<ISort> systemSortings;
     private final SlotRepository slotRepository;
+    private final BookingRepository bookingRepository;
 
-    public UserService(UserRepository userRepository, List<IFilter> systemFilters, List<ISort> systemSortings, SlotRepository slotRepository) {
+    public UserService(UserRepository userRepository, List<IFilter> systemFilters, List<ISort> systemSortings, SlotRepository slotRepository, BookingRepository bookingRepository) {
         this.userRepository = userRepository;
         this.systemFilters = systemFilters;
         this.systemSortings = systemSortings;
         this.slotRepository = slotRepository;
+        this.bookingRepository = bookingRepository;
     }
 
     public List<User> getDoctors(IActionDetails actionDetails){
@@ -70,7 +77,12 @@ public class UserService {
             return 0;
         });
 
-        String userId = searchDoctorActionDetails.getUserId();
+        String patientId = searchDoctorActionDetails.getUserId();
+
+        System.out.println("************************************************************");
+        System.out.println("Doctors matching patient: " + patientId + " search results");
+        doctors.forEach(System.out::println);
+        System.out.println("************************************************************");
 
         return doctors;
     }
@@ -97,5 +109,66 @@ public class UserService {
 
     public List<Slot> getAvailableSlotsForDoctor(String doctorId){
         return slotRepository.getAvailableSlots(doctorId);
+    }
+
+    // we can show extensibility here also like "steps for validations to book a slot" (as later in time more checks may come in)
+    public Booking bookSlotForPatient(String doctorId, String patientId){
+//        List<Slot> slots = getAvailableSlotsForDoctor(doctorId);
+
+        List<Slot> slots = slotRepository.getAllSlots(doctorId);
+
+        System.out.println("************************************************************");
+        System.out.println("slots for doctor: " + doctorId);
+        slots.forEach(System.out::println);
+        System.out.println("************************************************************");
+
+        Slot preferredSlot = !slots.isEmpty() ? slots.get(0) : null;
+
+        if(preferredSlot != null){
+            if(checkPatientAvailabilityForSlot(patientId, preferredSlot)){
+                if(preferredSlot.isAvailable()){
+                    System.out.println("slot: " + preferredSlot + " is available for booking");
+                    preferredSlot.setAvailable(false);
+                    bookingRepository.add(new Booking(doctorId, patientId, preferredSlot, BookingStatus.CONFIRMED));
+                    System.out.println("booked slot: " + preferredSlot);
+                }else{
+                    System.out.println("slot: " + preferredSlot + " is already booked, you are added to Q");
+                    bookingRepository.add(new Booking(doctorId, patientId, preferredSlot, BookingStatus.WAITING));
+                    System.out.println("waiting for slot: " + preferredSlot);
+                }
+                System.out.println("************************************************************");
+            }
+        }
+
+        return null;
+    }
+
+    private boolean checkPatientAvailabilityForSlot(String patientId, Slot preferredSlot) {
+        List<Booking> bookings = bookingRepository.getAllBookings();
+        Slot alreadyBookedSlot = bookings.stream()
+                .filter(booking -> booking.getPatientId().equals(patientId)
+                                && booking.getSlot().equals(preferredSlot)
+                                && !booking.getSlot().isAvailable())
+                .map(booking -> booking.getSlot())
+                .findFirst()
+                .orElse(null);
+
+        if(alreadyBookedSlot == null){
+            System.out.println("Patient has no overlapping slot, can book it");
+        }else {
+            System.out.println("Overlapping slot: " + alreadyBookedSlot + " found for patient: " + patientId);
+        }
+
+        return alreadyBookedSlot == null;
+    }
+
+    public void getTrendingDoctor(){
+        Map<String, List<Booking>> bookingMap = bookingRepository.getBookingMap();
+        String doctorWithMostBookings = bookingMap.entrySet().stream()
+                .max(Comparator.comparingInt(entry -> entry.getValue().size()))
+                .map(entry -> entry.getKey())
+                .orElse(null);
+
+        System.out.println("Trending doctor: " + userRepository.get(doctorWithMostBookings));
     }
 }

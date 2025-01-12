@@ -25,4 +25,8 @@ public class SlotRepository {
 
         return slots.stream().filter(Slot::isAvailable).collect(Collectors.toList());
     }
+
+    public List<Slot> getAllSlots(String doctorId){
+        return slotMap.getOrDefault(doctorId, new ArrayList<>());
+    }
 }

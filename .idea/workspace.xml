@@ -4,47 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Snakes and Ladders game">
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/enums/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/enums/DoctorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/enums/FilterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/enums/SortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/enums/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/model/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/model/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/BookingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/SlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/service/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/actions/AddSlotsActionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/actions/IActionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/actions/SearchDoctorActionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/DoctorTypeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/DoctorTypeFilterDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/IFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/IFilterDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/RatingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/RatingFilterDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/UserTypeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/filter/UserTypeFilterDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/DoctorComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/DoctorSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/DoctorTypeSortDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/EarliestSlotAvailabilityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/EarliestSlotAvailabilitySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/EarliestSlotAvailabilitySortDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/ISort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/ISortDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/RatingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/RatingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/RatingSortDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/user/DoctorUserProfileDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/user/IUserProfileDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/user/PatientUserProfileDetails.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Doctor Appointment service">
+      <change afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/utils/SearchQueryBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/model/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/SlotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/repository/SlotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/EarliestSlotAvailabilityComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/DoctorBookingSystem/strategy/sort/EarliestSlotAvailabilityComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00007" summary="StrategyDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724306492419</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1724306492419</updated>
     </task>
     <task id="LOCAL-00008" summary="NullObjectDesignPattern">
       <option name="closed" value="true" />
@@ -508,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736528285407</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Doctor Appointment service">
+      <option name="closed" value="true" />
+      <created>1736625832161</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1736625832161</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AmazonLockerService" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="Cache design" />
     <MESSAGE value="Chess design" />
@@ -537,6 +504,7 @@
     <MESSAGE value="Online meeting system" />
     <MESSAGE value="Restaurant Booking system" />
     <MESSAGE value="Snakes and Ladders game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Snakes and Ladders game" />
+    <MESSAGE value="Doctor Appointment service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctor Appointment service" />
   </component>
 </project>

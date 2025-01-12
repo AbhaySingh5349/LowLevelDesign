@@ -40,4 +40,15 @@ public class Booking {
     public void setBookingStatus(BookingStatus bookingStatus) {
         this.bookingStatus = bookingStatus;
     }
+
+    @Override
+    public String toString() {
+        return "Booking{" +
+                "doctorId='" + doctorId + '\'' +
+                ", patientId='" + patientId + '\'' +
+                ", slot=" + slot +
+                ", bookingStatus=" + bookingStatus +
+                ", createdAt=" + createdAt +
+                '}';
+    }
 }
