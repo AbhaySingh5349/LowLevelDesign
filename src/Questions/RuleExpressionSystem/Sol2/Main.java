@@ -34,3 +34,22 @@ public class Main {
         }
     }
 }
+
+/*
+{
+  "any": [
+    {
+      "field": "name",
+      "operator": "contains",
+      "value": "John",
+      "dataType": "STRING"
+    },
+    {
+      "field": "age",
+      "operator": ">",
+      "value": "30",
+      "dataType": "NUMBER"
+    }
+  ]
+}
+*/
