@@ -58,3 +58,34 @@ public class Main {
         }
     }
 }
+
+/*
+{
+  "any": [
+    {
+      "not": {
+        "field": "field1",
+        "operator": "contains",
+        "value": "John",
+        "dataType": "STRING"
+      }
+    },
+    {
+      "all": [
+        {
+          "field": "field2",
+          "operator": ">",
+          "value": "20",
+          "dataType": "NUMBER"
+        },
+        {
+          "field": "field3",
+          "operator": "<",
+          "value": "50",
+          "dataType": "NUMBER"
+        }
+      ]
+    }
+  ]
+}
+*/

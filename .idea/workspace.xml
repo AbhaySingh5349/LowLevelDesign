@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Rule Expression Builder">
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/enums/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/enums/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/IDataTypeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/NumberDataTypeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/StringDataTypeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/ConditionExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/IExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/OrExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Rule Expression Builder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00012" summary="ChainOfResponsibilityDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724329748053</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1724329748053</updated>
     </task>
     <task id="LOCAL-00013" summary="MediatorDesignPattern">
       <option name="closed" value="true" />
@@ -479,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737284345078</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Rule Expression Builder">
+      <option name="closed" value="true" />
+      <created>1737286957100</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1737286957100</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
