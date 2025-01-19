@@ -4,60 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Kafka pub-sub system">
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/dto/SpotSearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/CommandsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/DisplayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/PricingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/SpotSortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/SpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/enums/SpotType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/model/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/model/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/model/Spot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/repository/FloorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/repository/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/repository/SpotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/service/FloorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/service/ParkingLotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/service/SpotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/filter/ISpotSearchFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/filter/MinFloorNumSpotSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/filter/SpotStatusSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/filter/VehicleTypeSpotSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/HourlyPricing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/HourlyPricingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/IPricing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/IPricingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/SpotTypePricing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/pricing/SpotTypePricingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/sort/ISpotSortData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/sort/PreferredSpotTypeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/sort/PreferredSpotTypeSortData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/sort/TopFloorSortData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol2/strategy/sort/TopFloorSortTypeComparator.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Parking Lot system">
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol1/CompositeExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol1/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol1/LeafExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/ConditionExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/enums/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol2/enums/Operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/model/BikeSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/model/BikeSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/model/CarSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/model/CarSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/model/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/model/ParkingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/model/ParkingTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/repository/ParkingSpotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/repository/ParkingSpotRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/repository/ParkingTicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/repository/ParkingTicketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/repository/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/service/EntranceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/service/EntranceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/service/ExitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/service/ExitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/service/ParkingLotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/service/ParkingLotService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/CardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/CashPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/HourlyPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/HourlyPricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/NearestParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/NearestParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/ParkingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/ParkingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/PaymentStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/ParkingLot/strategy/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/ParkingLot/Sol1/strategy/PricingStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +28,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -128,14 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00010" summary="IteratorDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724323064820</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1724323064820</updated>
     </task>
     <task id="LOCAL-00011" summary="TemplateDesignPattern">
       <option name="closed" value="true" />
@@ -521,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736688537116</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Parking Lot system">
+      <option name="closed" value="true" />
+      <created>1736785310523</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1736785310523</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cache design" />
     <MESSAGE value="Chess design" />
     <MESSAGE value="Thread Safe implementation of custom hash map" />
     <MESSAGE value="Thread Safe implementation of Singleton class" />
@@ -550,6 +508,7 @@
     <MESSAGE value="Snakes and Ladders game" />
     <MESSAGE value="Doctor Appointment service" />
     <MESSAGE value="Kafka pub-sub system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kafka pub-sub system" />
+    <MESSAGE value="Parking Lot system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parking Lot system" />
   </component>
 </project>
