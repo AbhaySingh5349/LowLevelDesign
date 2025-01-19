@@ -14,7 +14,19 @@ public class StringDataTypeStrategy implements IDataTypeStrategy{
     );
 
     @Override
-    public boolean isOperatorValid(Operator operator) {
-        return VALID_OPERATORS.contains(operator);
+    public boolean isOperatorValid(Operator operator, Object value) {
+        if (!(value instanceof String)) return false;
+
+        switch (operator) {
+            case CONTAINS:
+            case STARTS_WITH:
+            case ENDS_WITH:
+            case EQUALS:
+                return true;
+            default:
+                return false;
+        }
+
+//        return VALID_OPERATORS.contains(operator);
     }
 }

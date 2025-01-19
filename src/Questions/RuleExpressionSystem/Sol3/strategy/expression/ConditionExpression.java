@@ -10,7 +10,7 @@ public class ConditionExpression implements IExpression{
     private final DataType dataType;
 
     public ConditionExpression(String field, Operator operator, Object value, DataType dataType) {
-        if (!dataType.getStrategy().isOperatorValid(operator)) {
+        if (!dataType.getStrategy().isOperatorValid(operator, value)) {
             throw new IllegalArgumentException(
                     String.format("Operator '%s' is not valid for data type '%s'", operator.getSymbol(), dataType)
             );

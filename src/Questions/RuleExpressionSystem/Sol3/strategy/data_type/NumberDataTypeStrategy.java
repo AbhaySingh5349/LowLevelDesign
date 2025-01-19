@@ -15,7 +15,18 @@ public class NumberDataTypeStrategy implements IDataTypeStrategy{
     );
 
     @Override
-    public boolean isOperatorValid(Operator operator) {
-        return VALID_OPERATORS.contains(operator);
+    public boolean isOperatorValid(Operator operator, Object value) {
+        if (!(value instanceof Number)) return false;
+
+        switch (operator) {
+            case GREATER_THAN:
+            case LESS_THAN:
+            case EQUALS:
+                return true;
+            default:
+                return false;
+        }
+
+//        return VALID_OPERATORS.contains(operator);
     }
 }
