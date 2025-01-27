@@ -24,6 +24,6 @@ public class NumericExpressionParser implements IExpressionParser{
 
     @Override
     public IComponentDataDetails parse(ComponentType type, String expression) {
-        return new TimeRangeComponentDataDetails(type, List.of(Integer.parseInt(expression)));
+        return new TimeRangeComponentDataDetails(List.of(Integer.parseInt(expression)));
     }
 }

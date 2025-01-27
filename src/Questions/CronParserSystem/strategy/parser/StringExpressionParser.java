@@ -20,6 +20,6 @@ public class StringExpressionParser implements IExpressionParser{
 
     @Override
     public IComponentDataDetails parse(ComponentType type, String expression) {
-        return new CommandComponentDataDetails(type, expression);
+        return new CommandComponentDataDetails(expression);
     }
 }

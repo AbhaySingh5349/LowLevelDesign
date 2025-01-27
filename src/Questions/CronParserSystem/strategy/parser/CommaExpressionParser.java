@@ -21,6 +21,6 @@ public class CommaExpressionParser implements IExpressionParser {
             values.add(Integer.parseInt(p));
         }
 
-        return new TimeRangeComponentDataDetails(type, values);
+        return new TimeRangeComponentDataDetails(values);
     }
 }

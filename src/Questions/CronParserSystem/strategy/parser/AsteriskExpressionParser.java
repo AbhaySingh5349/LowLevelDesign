@@ -40,6 +40,6 @@ public class AsteriskExpressionParser implements IExpressionParser {
             }
         }
 
-        return new TimeRangeComponentDataDetails(type, values);
+        return new TimeRangeComponentDataDetails(values);
     }
 }

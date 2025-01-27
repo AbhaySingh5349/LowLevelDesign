@@ -24,6 +24,6 @@ public class HyphenExpressionParser implements IExpressionParser {
             values.add(val);
         }
 
-        return new TimeRangeComponentDataDetails(type, values);
+        return new TimeRangeComponentDataDetails(values);
     }
 }
