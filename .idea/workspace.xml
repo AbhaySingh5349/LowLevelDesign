@@ -4,38 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Rule Expression Builder">
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/dto/FilterCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/dto/ProductFilterSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/enums/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/enums/ProductAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/enums/SizeAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/AvailabilityAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/BrandAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/CategoryAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/ColorAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/IAttributeOperatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/PriceAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/RatingAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/attribute_operator/SizeAttributeOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/BrandFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/ColorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/IProductAttributeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/IProductFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/PriceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter/ProductFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter_expression/AndFilterExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter_expression/ConditionExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter_expression/NotFilterExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter_expression/OrFilterExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/AdvanceConditionalFilter/strategy/filter_expression/ProductFilterExpression.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Ecommerce conditional filter">
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/enums/ComponentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/exceptions/InvalidExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/CronExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ParserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/IComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/CommaExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/IExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/NumericExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/StringExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/IDataTypeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/IDataTypeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/NumberDataTypeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/NumberDataTypeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/StringDataTypeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/data_type/StringDataTypeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/ConditionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RuleExpressionSystem/Sol3/strategy/expression/ConditionExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -106,14 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00014" summary="InterpreterDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724340472303</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1724340472303</updated>
     </task>
     <task id="LOCAL-00015" summary="ObserverDesignPattern">
       <option name="closed" value="true" />
@@ -499,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737287167451</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Ecommerce conditional filter">
+      <option name="closed" value="true" />
+      <created>1737311974755</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1737311974755</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Thread Safe implementation of custom hash map" />
     <MESSAGE value="Thread Safe implementation of Singleton class" />
     <MESSAGE value="Event Calendar design" />
     <MESSAGE value="Food Ordering System" />
@@ -528,6 +514,7 @@
     <MESSAGE value="Kafka pub-sub system" />
     <MESSAGE value="Parking Lot system" />
     <MESSAGE value="Rule Expression Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rule Expression Builder" />
+    <MESSAGE value="Ecommerce conditional filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ecommerce conditional filter" />
   </component>
 </project>
