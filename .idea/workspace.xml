@@ -5,13 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Cron Expression Parser">
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/CommandComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/TimeRangeComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/AsteriskExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/CommaExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/CommaExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/HyphenExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/NumericExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/NumericExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/StringExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/StringExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/enums/ComponentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/exceptions/InvalidExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/model/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/model/CronExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/service/ParserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/service/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/IComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/CommaExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/IExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/NumericExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/StringExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/CommandComponentDataValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/IComponentDataValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/TimeRangeDataValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/enums/ComponentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/enums/ComponentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/exceptions/InvalidExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/exceptions/InvalidExpressionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/model/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/CronExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/model/CronExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/service/ParserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/service/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/CommandComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/IComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/IComponentDataDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/TimeRangeComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/AsteriskExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/CommaExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/CommaExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/HyphenExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/IExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/IExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/NumericExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/NumericExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/StringExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/StringExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/utils/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +54,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -55,22 +86,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SocialMedia.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ElevatorSystem.executor": "Run",
+    "Application.LibrarySystem.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SocialMedia.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions/CronParserSystem/Sol2",
+    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions\CronParserSystem\Sol2" />
       <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions" />
     </key>
   </component>
@@ -82,14 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ObserverDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724346039672</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1724346039673</updated>
     </task>
     <task id="LOCAL-00017" summary="CompositeDesignPattern">
       <option name="closed" value="true" />
@@ -475,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737980912009</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Cron Expression Parser">
+      <option name="closed" value="true" />
+      <created>1737981256185</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1737981256185</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
