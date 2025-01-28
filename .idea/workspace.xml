@@ -5,44 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Cron Expression Parser">
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/enums/ComponentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/exceptions/InvalidExpressionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/model/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/model/CronExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/service/ParserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/service/ValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/IComponentDataDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/CommaExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/IExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/NumericExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/parser/StringExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/CommandComponentDataValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/IComponentDataValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/strategy/validations/TimeRangeDataValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol2/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/constants/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/constants/Errors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/constants/FilePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/data/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/data/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/enums/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/enums/CurrencyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/enums/SplitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/model/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/model/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/model/SplitParticipant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/service/ExpenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/storage/IExpenseStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/storage/InMemoryExpenseStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/correct_approach/EqualSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/correct_approach/ExactSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/correct_approach/ISplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/correct_approach/PercentSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_EqualSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_EqualSplitDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_ExactSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_ExactSplitDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_ISplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_ISplitDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_PercentSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Splitwise/strategy/failed_approach/f_PercentSplitDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/enums/ComponentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/enums/ComponentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/exceptions/InvalidExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/exceptions/InvalidExpressionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/model/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/model/CronExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/model/CronExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/service/ParserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/service/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/service/ValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/CommandComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/CommandComponentDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/IComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/IComponentDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/data/TimeRangeComponentDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/data/TimeRangeComponentDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/AsteriskExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/AsteriskExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/CommaExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/CommaExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/HyphenExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/HyphenExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/IExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/IExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/NumericExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/NumericExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/strategy/parser/StringExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/strategy/parser/StringExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/CronParserSystem/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/CronParserSystem/Sol1/utils/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +45,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -114,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00017" summary="CompositeDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724416145802</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1724416145802</updated>
     </task>
     <task id="LOCAL-00018" summary="DecoratorDesignPattern">
       <option name="closed" value="true" />
@@ -507,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737981256185</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Cron Expression Parser">
+      <option name="closed" value="true" />
+      <created>1738046983038</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1738046983038</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
