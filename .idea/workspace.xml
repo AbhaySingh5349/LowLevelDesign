@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Splitwise">
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/dto/BidRuleContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/AuctionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/ItemCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/ParticipantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/repository/AuctionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/repository/BiddingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/service/AuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/service/BiddingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/IActionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/PlaceBidActionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/UpdateAuctionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/AuctionStatusRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/DifferentBuyerThanMaxBidBuyerRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/GreaterThanPrevBidRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/ISuccessBidRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/UserEligibilityRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/Splitwise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Splitwise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/Splitwise/service/ExpenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Splitwise/service/ExpenseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/Splitwise/storage/IExpenseStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Splitwise/repository/IExpenseStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/Splitwise/storage/InMemoryExpenseStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Splitwise/repository/InMemoryExpenseStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +71,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ElevatorSystem.executor": "Run",
-    "Application.LibrarySystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SocialMedia.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions/CronParserSystem/Sol2",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SocialMedia.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions/CronParserSystem/Sol2&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions\CronParserSystem\Sol2" />
@@ -81,14 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00019" summary="StateDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724685906655</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1724685906655</updated>
     </task>
     <task id="LOCAL-00020" summary="MementoDesignPattern">
       <option name="closed" value="true" />
@@ -474,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738086706336</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Splitwise">
+      <option name="closed" value="true" />
+      <created>1738125569841</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1738125569842</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
