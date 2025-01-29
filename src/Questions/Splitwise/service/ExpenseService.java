@@ -4,14 +4,11 @@ import Questions.Splitwise.enums.CommandType;
 import Questions.Splitwise.enums.SplitType;
 import Questions.Splitwise.model.Expense;
 import Questions.Splitwise.model.SplitParticipant;
-import Questions.Splitwise.model.User;
-import Questions.Splitwise.storage.IExpenseStorage;
+import Questions.Splitwise.repository.IExpenseStorage;
 import Questions.Splitwise.strategy.correct_approach.ISplit;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static Questions.Splitwise.enums.CommandType.SHOW;
 
 // we cannot use ISplitDetails & doesSupport(ISplitDetails)
 // because data required by them is different which can only be known once we parse expression

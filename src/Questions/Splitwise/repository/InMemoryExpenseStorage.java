@@ -1,4 +1,4 @@
-package Questions.Splitwise.storage;
+package Questions.Splitwise.repository;
 
 import Questions.Splitwise.model.Expense;
 
@@ -28,8 +28,8 @@ public class InMemoryExpenseStorage implements IExpenseStorage{
 
     @Override
     public void updateOverallBalance(String userId, double amount) {
-        userOverallBalanceMap.put(userId, userOverallBalanceMap.getOrDefault(userId, 0.0) + amount);
-//        userOverallBalanceMap.merge(userId, amount, Double::sum);
+//        userOverallBalanceMap.put(userId, userOverallBalanceMap.getOrDefault(userId, 0.0) + amount);
+        userOverallBalanceMap.merge(userId, amount, Double::sum);
     }
 
     @Override

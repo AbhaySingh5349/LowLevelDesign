@@ -5,8 +5,8 @@ package Questions.Splitwise;
 // EXPENSE u4 1200 4 u1 u2 u3 u4 PERCENT 40 20 20 20
 
 import Questions.Splitwise.service.ExpenseService;
-import Questions.Splitwise.storage.IExpenseStorage;
-import Questions.Splitwise.storage.InMemoryExpenseStorage;
+import Questions.Splitwise.repository.IExpenseStorage;
+import Questions.Splitwise.repository.InMemoryExpenseStorage;
 import Questions.Splitwise.strategy.correct_approach.EqualSplit;
 import Questions.Splitwise.strategy.correct_approach.ExactSplit;
 import Questions.Splitwise.strategy.correct_approach.ISplit;

@@ -1,4 +1,4 @@
-package Questions.Splitwise.storage;
+package Questions.Splitwise.repository;
 
 import Questions.Splitwise.model.Expense;
 
