@@ -1,7 +1,7 @@
 package Questions.APIsRateLimiter.Sol1.strategy.rateLimiterAlgo;
 
 import Questions.APIsRateLimiter.Sol1.model.TokenBucket;
-import Questions.APIsRateLimiter.Sol1.strategy.entity.IRateLimitingEntity;
+import Questions.APIsRateLimiter.Sol1.strategy.consumer_entity.IRequestConsumer;
 import Questions.APIsRateLimiter.Sol1.strategy.refill.IRefillRule;
 
 import java.util.Map;
@@ -14,14 +14,14 @@ public class TokenBucketRateLimiter implements IRateLimiter{
     }
 
     @Override
-    public boolean isRequestAllowed(IRateLimitingEntity entity) {
+    public boolean isRequestAllowed(IRequestConsumer entity) {
         String entityId = entity.getRateLimitingId();
         IRefillRule refillRule = entity.getRefillRule();
 
         TokenBucket bucket = entityTokenBucketMap.get(entityId);
         refillRule.refillBucket(bucket);
 
-        if(bucket.hasToken()){
+        if(bucket.getCurTokens() > 0){
             bucket.consumeToken();
 
             return true;

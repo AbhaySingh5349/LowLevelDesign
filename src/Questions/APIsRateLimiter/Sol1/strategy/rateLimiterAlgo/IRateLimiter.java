@@ -1,7 +1,7 @@
 package Questions.APIsRateLimiter.Sol1.strategy.rateLimiterAlgo;
 
-import Questions.APIsRateLimiter.Sol1.strategy.entity.IRateLimitingEntity;
+import Questions.APIsRateLimiter.Sol1.strategy.consumer_entity.IRequestConsumer;
 
 public interface IRateLimiter {
-    boolean isRequestAllowed(IRateLimitingEntity entity);
+    boolean isRequestAllowed(IRequestConsumer entity);
 }

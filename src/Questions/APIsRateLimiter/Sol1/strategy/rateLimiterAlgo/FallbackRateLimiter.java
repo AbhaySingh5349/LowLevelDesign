@@ -1,6 +1,6 @@
 package Questions.APIsRateLimiter.Sol1.strategy.rateLimiterAlgo;
 
-import Questions.APIsRateLimiter.Sol1.strategy.entity.IRateLimitingEntity;
+import Questions.APIsRateLimiter.Sol1.strategy.consumer_entity.IRequestConsumer;
 
 public class FallbackRateLimiter implements IRateLimiter{
     private final IRateLimiter primaryRateLimiter;
@@ -20,7 +20,7 @@ public class FallbackRateLimiter implements IRateLimiter{
     }
 
     @Override
-    public boolean isRequestAllowed(IRateLimitingEntity entity) {
+    public boolean isRequestAllowed(IRequestConsumer entity) {
         boolean primaryResponse = primaryRateLimiter.isRequestAllowed(entity);
 
         if(primaryResponse){

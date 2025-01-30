@@ -5,10 +5,14 @@ public class TokenBucket {
     private Integer curTokens;
     private Long lastRefilledAt;
 
-    public TokenBucket(Integer maxTokensAllowed, Integer curTokens, Long lastRefilledAt) {
+    public TokenBucket(Integer maxTokensAllowed, Long lastRefilledAt) {
         this.maxTokensAllowed = maxTokensAllowed;
-        this.curTokens = curTokens;
+        this.curTokens = maxTokensAllowed;
         this.lastRefilledAt = lastRefilledAt;
+    }
+
+    public Integer getCurTokens() {
+        return curTokens;
     }
 
     public Long getLastRefilledAt() {
@@ -19,15 +23,12 @@ public class TokenBucket {
         this.lastRefilledAt = lastRefilledAt;
     }
 
-    public boolean hasToken(){
-        return curTokens > 0;
-    }
-
     public void consumeToken(){
-        maxTokensAllowed--;
+        curTokens--;
     }
 
     public void refill(Integer count){
-        curTokens = Math.min(maxTokensAllowed, curTokens + count);
+//        curTokens = Math.min(maxTokensAllowed, curTokens + count);
+        curTokens += count;
     }
 }

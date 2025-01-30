@@ -1,13 +1,13 @@
-package Questions.APIsRateLimiter.Sol1.strategy.entity;
+package Questions.APIsRateLimiter.Sol1.strategy.consumer_entity;
 
 import Questions.APIsRateLimiter.Sol1.strategy.refill.IRefillRule;
 
-public class UserPerApiLevelRateLimiting implements IRateLimitingEntity{
+public class UserPerAPILevelRequestConsumer implements IRequestConsumer {
     private final String userId;
     private final String apiId;
     private final IRefillRule refillRule;
 
-    public UserPerApiLevelRateLimiting(String userId, String apiId, IRefillRule refillRule) {
+    public UserPerAPILevelRequestConsumer(String userId, String apiId, IRefillRule refillRule) {
         this.userId = userId;
         this.apiId = apiId;
         this.refillRule = refillRule;

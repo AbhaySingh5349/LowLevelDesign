@@ -1,11 +1,9 @@
 package Questions.APIsRateLimiter.Sol1.strategy.refill;
 
-import Questions.APIsRateLimiter.Sol1.dto.ConstantRateRefillData;
-import Questions.APIsRateLimiter.Sol1.dto.IRefillData;
 import Questions.APIsRateLimiter.Sol1.model.TokenBucket;
 
 public class ConstantRateRefillRule implements IRefillRule{
-    IRefillData refillData;
+    private final IRefillData refillData;
 
     public ConstantRateRefillRule(IRefillData refillData) {
         this.refillData = refillData;
@@ -13,8 +11,11 @@ public class ConstantRateRefillRule implements IRefillRule{
 
     @Override
     public void refillBucket(TokenBucket bucket) {
-        Integer tokensToRefill = ((ConstantRateRefillData) refillData).getTokensToRefill();
-        long tokensRefillWindowInMillis = ((ConstantRateRefillData) refillData).getTokensRefillWindowInMillis();;
+        ConstantRateRefillData constantRateRefillData = (ConstantRateRefillData) refillData;
+
+        Integer tokensToRefill = constantRateRefillData.getTokensToRefill();
+        long tokensRefillWindowInMillis = constantRateRefillData.getTokensRefillWindowInMillis();;
+
         long lastRefilledAt = bucket.getLastRefilledAt();
 
         long timeElapsed = System.currentTimeMillis() - lastRefilledAt;
@@ -22,6 +23,7 @@ public class ConstantRateRefillRule implements IRefillRule{
         if(timeElapsed > tokensRefillWindowInMillis){
             bucket.refill(tokensToRefill);
             bucket.setLastRefilledAt(System.currentTimeMillis());
+            System.out.println("BUCKET REFILLED: " + bucket.getCurTokens());
         }
     }
 }

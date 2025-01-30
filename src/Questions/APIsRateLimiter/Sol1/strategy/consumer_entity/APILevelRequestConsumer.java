@@ -1,11 +1,11 @@
-package Questions.APIsRateLimiter.Sol1.strategy.entity;
+package Questions.APIsRateLimiter.Sol1.strategy.consumer_entity;
 
 import Questions.APIsRateLimiter.Sol1.strategy.refill.IRefillRule;
 
-public class APILevelRateLimitingEntity implements IRateLimitingEntity{
+public class APILevelRequestConsumer implements IRequestConsumer {
     private String apiId;
 
-    public APILevelRateLimitingEntity(String apiId) {
+    public APILevelRequestConsumer(String apiId) {
         this.apiId = apiId;
     }
 
