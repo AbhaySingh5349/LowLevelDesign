@@ -1,8 +1,8 @@
-package Questions.APIsRateLimiter.strategy.rateLimiterAlgo;
+package Questions.APIsRateLimiter.Sol1.strategy.rateLimiterAlgo;
 
-import Questions.APIsRateLimiter.model.TokenBucket;
-import Questions.APIsRateLimiter.strategy.entity.IRateLimitingEntity;
-import Questions.APIsRateLimiter.strategy.refill.IRefillRule;
+import Questions.APIsRateLimiter.Sol1.model.TokenBucket;
+import Questions.APIsRateLimiter.Sol1.strategy.entity.IRateLimitingEntity;
+import Questions.APIsRateLimiter.Sol1.strategy.refill.IRefillRule;
 
 import java.util.Map;
 

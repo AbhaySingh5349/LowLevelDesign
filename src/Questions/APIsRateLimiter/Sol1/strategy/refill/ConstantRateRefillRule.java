@@ -1,8 +1,8 @@
-package Questions.APIsRateLimiter.strategy.refill;
+package Questions.APIsRateLimiter.Sol1.strategy.refill;
 
-import Questions.APIsRateLimiter.dto.ConstantRateRefillData;
-import Questions.APIsRateLimiter.dto.IRefillData;
-import Questions.APIsRateLimiter.model.TokenBucket;
+import Questions.APIsRateLimiter.Sol1.dto.ConstantRateRefillData;
+import Questions.APIsRateLimiter.Sol1.dto.IRefillData;
+import Questions.APIsRateLimiter.Sol1.model.TokenBucket;
 
 public class ConstantRateRefillRule implements IRefillRule{
     IRefillData refillData;

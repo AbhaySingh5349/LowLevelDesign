@@ -4,30 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Splitwise">
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/dto/BidRuleContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/AuctionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/ItemCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/enums/ParticipantType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Auction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Bid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/repository/AuctionRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/repository/BiddingRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/service/AuctionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/service/BiddingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/IActionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/PlaceBidActionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/actions/UpdateAuctionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/AuctionStatusRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/DifferentBuyerThanMaxBidBuyerRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/GreaterThanPrevBidRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/ISuccessBidRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/strategy/bid_rules/UserEligibilityRule.java" afterDir="false" />
+    <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="Online Auction System">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/dto/ConstantRateRefillData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/dto/ConstantRateRefillData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/dto/IRefillData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/dto/IRefillData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/model/TokenBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/model/TokenBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/entity/APILevelRateLimitingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/entity/APILevelRateLimitingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/entity/IRateLimitingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/entity/IRateLimitingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/entity/UserLevelRateLimiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/entity/UserLevelRateLimiting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/entity/UserPerApiLevelRateLimiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/entity/UserPerApiLevelRateLimiting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/rateLimiterAlgo/FallbackRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/rateLimiterAlgo/FallbackRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/rateLimiterAlgo/IRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/rateLimiterAlgo/IRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/rateLimiterAlgo/TokenBucketRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/rateLimiterAlgo/TokenBucketRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/refill/ConstantRateRefillRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/refill/ConstantRateRefillRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/strategy/refill/IRefillRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol1/strategy/refill/IRefillRule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00020" summary="MementoDesignPattern">
-      <option name="closed" value="true" />
-      <created>1724763010335</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1724763010335</updated>
     </task>
     <task id="LOCAL-00021" summary="AdapterDesignPattern">
       <option name="closed" value="true" />
@@ -492,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738125569842</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Online Auction System">
+      <option name="closed" value="true" />
+      <created>1738167665862</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1738167665862</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Food Ordering System" />
     <MESSAGE value="Ticket Resolution System" />
     <MESSAGE value="Ride Sharing System" />
     <MESSAGE value="Ride Sharing System with extensible filter and sort" />
@@ -521,6 +512,7 @@
     <MESSAGE value="Ecommerce conditional filter" />
     <MESSAGE value="Cron Expression Parser" />
     <MESSAGE value="Splitwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Splitwise" />
+    <MESSAGE value="Online Auction System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Online Auction System" />
   </component>
 </project>

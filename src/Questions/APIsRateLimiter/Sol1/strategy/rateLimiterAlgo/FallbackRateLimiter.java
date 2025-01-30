@@ -1,6 +1,6 @@
-package Questions.APIsRateLimiter.strategy.rateLimiterAlgo;
+package Questions.APIsRateLimiter.Sol1.strategy.rateLimiterAlgo;
 
-import Questions.APIsRateLimiter.strategy.entity.IRateLimitingEntity;
+import Questions.APIsRateLimiter.Sol1.strategy.entity.IRateLimitingEntity;
 
 public class FallbackRateLimiter implements IRateLimiter{
     private final IRateLimiter primaryRateLimiter;

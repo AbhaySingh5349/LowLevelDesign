@@ -1,4 +1,4 @@
-package Questions.APIsRateLimiter.dto;
+package Questions.APIsRateLimiter.Sol1.dto;
 
 public class ConstantRateRefillData implements IRefillData {
     // x num of tokens will be filled every y unit of time

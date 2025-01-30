@@ -1,6 +1,6 @@
-package Questions.APIsRateLimiter.strategy.entity;
+package Questions.APIsRateLimiter.Sol1.strategy.entity;
 
-import Questions.APIsRateLimiter.strategy.refill.IRefillRule;
+import Questions.APIsRateLimiter.Sol1.strategy.refill.IRefillRule;
 
 public class UserPerApiLevelRateLimiting implements IRateLimitingEntity{
     private final String userId;

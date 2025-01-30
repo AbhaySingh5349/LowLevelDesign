@@ -1,4 +1,4 @@
-package Questions.APIsRateLimiter.model;
+package Questions.APIsRateLimiter.Sol1.model;
 
 public class TokenBucket {
     private Integer maxTokensAllowed;
