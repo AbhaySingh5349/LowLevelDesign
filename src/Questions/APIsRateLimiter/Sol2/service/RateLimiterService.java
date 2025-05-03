@@ -17,7 +17,8 @@ public class RateLimiterService {
 
     private RateLimiterService() {
         this.entityTokenBucketMap = new HashMap<>();
-        this.rateLimiter = new TokenBucketRateLimiter(entityTokenBucketMap);
+//        this.rateLimiter = new TokenBucketRateLimiter(entityTokenBucketMap);
+        this.rateLimiter = null;
     }
 
     public static RateLimiterService getInstance(){
@@ -33,7 +34,7 @@ public class RateLimiterService {
 
     // Method to register a rate-limiting entity
     public void registerEntity(IRequestEntity entity, int maxTokens) {
-        TokenBucket bucket = new TokenBucket(maxTokens, System.currentTimeMillis());
+        TokenBucket bucket = new TokenBucket(maxTokens, null);
         entityTokenBucketMap.put(entity.getRateLimitingId(), bucket);
     }
 

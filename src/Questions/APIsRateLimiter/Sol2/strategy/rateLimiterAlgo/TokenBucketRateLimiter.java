@@ -15,7 +15,8 @@ public class TokenBucketRateLimiter implements IRateLimiter {
     }
 
     @Override
-    public boolean isRequestAllowed(IRequestEntity entity) {
+    public boolean isRequestAllowed(IRequestEntity entity)
+    {
 //        String entityId = entity.getRateLimitingId();
 //        IRefillRule refillRule = entity.getRefillRule();
 //
@@ -34,8 +35,10 @@ public class TokenBucketRateLimiter implements IRateLimiter {
 
         TokenBucket bucket = entityTokenBucketMap.get(entityId);
         IRefillRule refillRule = bucket.getRefillRule();
-        refillRule.refillBucket(bucket);
+//        refillRule.refillBucket(bucket);
 
-        return bucket.allowRequest();
+//        return bucket.allowRequest();
+
+        return true;
     }
 }

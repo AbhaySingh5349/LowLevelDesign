@@ -8,7 +8,7 @@ import java.util.Comparator;
 public class MinCostRideComparator implements Comparator<Ride> {
     @Override
     public int compare(Ride r1, Ride r2) {
-        return 0;
+        return Integer.compare(getVehicleRank(r1.getVehicle().getType()), getVehicleRank(r2.getVehicle().getType()));
     }
 
     private int getVehicleRank(VehicleType vehicleType){

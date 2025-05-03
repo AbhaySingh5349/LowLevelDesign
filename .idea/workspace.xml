@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ff25bb-5d8a-499c-9c86-33c3f6d4b44a" name="Changes" comment="API rate limiter">
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/enums/RateLimitingAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/enums/RefillRuleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/model/FixedWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/model/TokenBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/service/RateLimiterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/entity/APILevelRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/entity/IRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/entity/UserLevelRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/entity/UserPerAPILevelRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/FallbackRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/FixedWindowRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/IRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/TokenBucketRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/refill/ConstantRateRefillData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/refill/ConstantRateRefillRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/refill/IRefillData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/refill/IRefillRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDesignPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/service/RateLimiterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/service/RateLimiterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/TokenBucketRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/APIsRateLimiter/Sol2/strategy/rateLimiterAlgo/TokenBucketRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/OnlineBiddingSystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/MinCostRideComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/RideSharingSystem/SolvedFilterAndSortUsingInterfaceOnly/strategy/comparator/MinCostRideComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ElevatorSystem.executor": "Run",
-    "Application.LibrarySystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SocialMedia.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/LowLevelDesign/src/Questions/APIsRateLimiter/Sol2",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElevatorSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibrarySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SocialMedia.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/LowLevelDesign&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/LowLevelDesign/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\LowLevelDesign\src\Questions\APIsRateLimiter\Sol2" />
@@ -96,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716283265803</updated>
-    </task>
-    <task id="LOCAL-00023" summary="ElevatorSystem">
-      <option name="closed" value="true" />
-      <created>1724933431361</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1724933431361</updated>
     </task>
     <task id="LOCAL-00024" summary="LibraryManagementSystem">
       <option name="closed" value="true" />
@@ -489,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738221912989</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="API rate limiter">
+      <option name="closed" value="true" />
+      <created>1739441562015</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1739441562015</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
